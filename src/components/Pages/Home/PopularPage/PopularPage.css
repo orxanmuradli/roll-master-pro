@@ -1,0 +1,70 @@
+.cards{
+    display: flex;
+    
+    padding: 40px;
+    gap: 28px;
+   
+    justify-content: space-between;
+    text-align: center
+    
+    
+  
+}
+
+.popular{
+    
+}
+
+.popular-tittle h1{
+    color: #DE4320;
+    padding-left: 40px;
+    font-family: 'Anton', sans-serif;
+    
+    
+}
+
+
+
+/* .cart1 span{
+    color: #DE4320;
+
+} */
+.cart{
+    width: 33%;    
+   cursor: pointer;
+}
+
+.cart img{
+    width: 100%;
+}
+
+.cart span{
+    color: #DE4320;
+}
+
+/* .cart span{
+    color: #DE4320;
+} */
+
+.cart h2{
+    font-family: 'Anton', sans-serif;
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+.card p{
+    color: #C9C9D1;
+
+}
+
+.card p{
+    color: #C9C9D1;
+
+}
+
+.cart p{
+    color: #C9C9D1;
+}

@@ -1,0 +1,43 @@
+.styles{
+    display: flex;
+    /* height: 340px; */
+    padding: 40px;
+    gap: 28px;
+    justify-content: space-between;
+    text-align: center;
+   
+}
+
+.blog{
+    margin-top: 160px;
+
+}
+
+
+.blog-tittle h1{
+    color: #DE4320;
+    padding:0 40px;
+    font-family: 'Anton', sans-serif;
+    
+}
+
+
+.style{
+    width: 33%;
+    cursor: pointer;
+   
+}
+
+.style img{
+    width: 100%;
+    gap: 30px;
+    /* background-size: cover; */
+    
+}
+
+.style span{
+    font-size: 24px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+  
+}
