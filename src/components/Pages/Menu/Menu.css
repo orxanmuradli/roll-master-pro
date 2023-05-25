@@ -16,6 +16,13 @@
     position: relative;
 }
 
+.left-container p{
+    /* font-size: 36px; */
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    line-height: 54.19px;
+}
+
 
 
 .special-cards{
@@ -39,6 +46,10 @@
     font-size: 40px;
     font-weight: 400;
     padding-top: 78px;
+    line-height: 60px;
+    margin-bottom: 20px;
+ 
+   
 }
 .wrapper{
     display: flex;
@@ -51,7 +62,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    width: 33%;
+    width: 31%;
     background: #201F22;
     color: #FFFFFF;
     border-right: 1px solid #FFFFFF;
@@ -63,8 +74,13 @@
 }
 .menu-download{
     padding-top: 95px;
-    padding-right: 23px;
+    padding-right: 38px;
     font-family: 'Anton', sans-serif;
+    font-style: Regular;
+    color: #C9C9D1;
+    font-size: 24px;
+    line-height: 32px;
+    line-height: 89%;
 }
 
 .specials p{

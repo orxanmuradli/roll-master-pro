@@ -14,6 +14,7 @@
 }
 
 
+
 .blog-tittle h1{
     color: #DE4320;
     padding:0 40px;
@@ -25,6 +26,7 @@
 .style{
     width: 33%;
     cursor: pointer;
+   
    
 }
 
@@ -39,5 +41,7 @@
     font-size: 24px;
     font-family: 'Anton', sans-serif;
     font-weight: 400;
-  
+    gap: 20px;
+    position: relative;
+    top: 20px;
 }
