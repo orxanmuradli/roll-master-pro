@@ -46,7 +46,7 @@ line-height: 32px;
 .headerContainer h1{
     color: #ffffff;
     font-family: 'Anton', sans-serif;
-font-size: 44px;
+font-size: 31px;
 font-weight: 400;
 line-height: 66px;
 letter-spacing: 0em;
@@ -110,11 +110,25 @@ border-left: 1px solid black;
 
 .lefting1 p{
     margin-left: 20px;
+    font-size: 24px;
+    font-family: 'Anton', sans-serif;
+    line-height: 36px;
+    font-style: Regular; 
+  
+
 }
 .righting2{
     padding: 20px;
 }
 
+.righting2 span{
+    font-size: 24px;
+    font-family: 'Anton', sans-serif;
+    line-height: 36px;
+    font-style: Regular; 
+    line-height: 100%;
+    margin-left: 20px;
+}
 .insta{
    padding: 25px;
    border-right: 1px solid #201f22;
