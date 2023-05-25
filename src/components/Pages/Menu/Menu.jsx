@@ -33,7 +33,10 @@ const Menu = () => {
             
           </div> */}
           <div className="left-container">
+            <div className="Rollar">
             <p>ROLLAR</p>
+            </div>
+            
             <div className="scor scor-left">
               <img src={left} alt="" />
             </div>
