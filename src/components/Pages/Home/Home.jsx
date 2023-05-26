@@ -4,8 +4,9 @@ import face from "../../../assets/face.png";
 import arrow from "../../../assets/arrow-right.png";
 import darkmood from "./../../../assets/darkmood.png";
 import React from "react";
-
-
+import PopularPage from "./PopularPage/PopularPage";
+import Menu from '../Menu/Menu'
+import Blog from "../Blog/Blog"
 import wolt from "../../../assets/wolt.png";
 function Home() {
   return (
@@ -41,9 +42,8 @@ function Home() {
           </div>
         </div>
       </div>
-
     </div>
-     <div className="container">
+    <div className="container">
      <div className="social">
         <div className="left">
           <div className="lefting1">
@@ -75,15 +75,16 @@ function Home() {
         </div>
       </div>
      </div>
-<section className="heading">
+    <section className="heading">
   <div className="container">
     <h1>
     Lorem ipsum <span className="red">dolor sit amet</span> consectetur. Egestas quis suscipit leo elementum amet.
     </h1>
   </div>
 </section>
-
-
+          <PopularPage />
+          <Menu />
+          <Blog />
       
     </section>
     
