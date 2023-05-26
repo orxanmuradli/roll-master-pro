@@ -1,7 +1,7 @@
 .styles{
     display: flex;
     /* height: 340px; */
-    padding: 40px;
+    padding-top: 24px;
     gap: 28px;
     justify-content: space-between;
     text-align: center;
@@ -17,7 +17,6 @@
 
 .blog-tittle h1{
     color: #DE4320;
-    padding:0 40px;
     font-family: 'Anton', sans-serif;
     font-size: 40px;
     line-height: 60pxz;

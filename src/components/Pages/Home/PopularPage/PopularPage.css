@@ -1,7 +1,7 @@
 .cards{
     display: flex;
     
-    padding: 40px;
+    padding-top: 40px;
     gap: 28px;
    
     justify-content: space-between;
@@ -17,7 +17,6 @@
 
 .popular-tittle h1{
     color: #DE4320;
-    padding-left: 40px;
     font-family: 'Anton', sans-serif;
     font-size: 40px;
     font-weight: 400;

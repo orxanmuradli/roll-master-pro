@@ -7,7 +7,6 @@
    justify-content: space-between;
    /* padding: 0 20px; */
    /* margin-right: 20px; */
-   margin-inline: 42px;
 
 }
 .left-container{
@@ -42,7 +41,6 @@
 
 .special-tittle h3{
     color: #DE4320;
-     padding-left: 40px;
     font-family: 'Anton', sans-serif;
     font-size: 40px;
     font-weight: 400;
@@ -75,7 +73,6 @@
 }
 .menu-download{
     padding-top: 95px;
-    padding-right: 38px;
     font-family: 'Anton', sans-serif;
     font-style: Regular;
     color: #C9C9D1;
