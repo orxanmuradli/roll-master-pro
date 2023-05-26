@@ -7,7 +7,8 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className='navbar'>
+<div className="container">
+<div className='navbar'>
       <div className='leftSide'>
         <img src={Logo}  />
       </div>
@@ -22,6 +23,7 @@ const Header = () => {
      <Link to="/ƏLAQƏ">ƏLAQƏ</Link>
       </div>
     </div>
+</div>
   )
 }
 

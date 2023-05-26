@@ -8,7 +8,8 @@ const Blog = () => {
   return (
     
     <div className="blog">
-    <div className="blog-tittle">
+<div className="container">
+<div className="blog-tittle">
      
      <h1>BLOQ</h1>
      <div className="styles">
@@ -32,6 +33,7 @@ const Blog = () => {
      
      </div>
     </div>
+</div>
   </div>
 
       

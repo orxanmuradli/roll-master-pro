@@ -7,7 +7,8 @@ import React from 'react';
 const Footer = () => {
   return (
     <div className="footer-content">
-       <div className="footer-top">
+     <div className="container">
+     <div className="footer-top">
        <div className="left-content">
        <img src={insta} alt="" />
        <img src={face} alt="" />
@@ -31,6 +32,7 @@ const Footer = () => {
           <p>Created by </p> <span className='green'>Claradix</span>
             </div>
         </div>
+     </div>
     </div>
   )
 }

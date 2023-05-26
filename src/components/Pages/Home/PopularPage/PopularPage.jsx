@@ -7,7 +7,8 @@ import React from "react";
 const PopularPage = () => {
   return (
     <div className="popular">
-      <div className="popular-tittle">
+     <div className="container">
+     <div className="popular-tittle">
         <h1>POPULAR</h1>
         <div className="cards">
           <div className="cart">
@@ -36,6 +37,7 @@ const PopularPage = () => {
           </div>
         </div>
       </div>
+     </div>
     </div>
   );
 };

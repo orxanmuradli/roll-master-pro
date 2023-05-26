@@ -13,3 +13,8 @@ body{
   overflow-x: hidden;
 }
 
+.container{
+  width: 1360px;
+  max-width: 95%;
+  margin: 0 auto;
+}

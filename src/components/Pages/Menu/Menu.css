@@ -130,6 +130,7 @@ text-align: center;
     
 }
 
+
 .cart-container {
     display: flex;
     width: 26%;
@@ -171,6 +172,9 @@ text-align: center;
 
 }
 
+.wrapper-cart:hover{
+    background-color: #de4320;
+}
 .wrapper-cart img {
     position: relative;
 }

@@ -10,7 +10,8 @@ import wolt from "../../../assets/wolt.png";
 function Home() {
   return (
     <section className="banner">
-      <div className="home">
+    <div className="container">
+    <div className="home">
         <div className="headerContainer">
           <h1>
             Lorem ipsum dolor sit amet consectetur. Egestas quis suscipit leo
@@ -41,7 +42,9 @@ function Home() {
         </div>
       </div>
 
-      <div className="social">
+    </div>
+     <div className="container">
+     <div className="social">
         <div className="left">
           <div className="lefting1">
             {" "}
@@ -71,12 +74,14 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="lorems">
-        <h1>
-          Lorem ipsum <span className="red">dolor sit amet </span>consectetur.
-          Egestas quis suscipit leo elementum amet.
-        </h1>
-      </div>
+     </div>
+<section className="heading">
+  <div className="container">
+    <h1>
+    Lorem ipsum <span className="red">dolor sit amet</span> consectetur. Egestas quis suscipit leo elementum amet.
+    </h1>
+  </div>
+</section>
 
 
       

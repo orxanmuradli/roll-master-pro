@@ -42,10 +42,21 @@ line-height: 32px;
 
 }
 
-
+.headerContainer{
+    padding-top: 180px;
+    margin-left: 52px;
+    width: 566px;
+}
 .headerContainer h1{
-    color: #ffffff;
     font-family: 'Anton', sans-serif;
+    font-size: 44px;
+    line-height: 66px;
+    text-align: left;
+    color: #fff;
+    font-style: Regular;
+    font-weight: 400;
+    /* color: #ffffff;
+
 font-size: 31px;
 font-weight: 400;
 line-height: 66px;
@@ -54,10 +65,9 @@ text-align: left;
 margin: 0;
 padding-top: 180px;
 padding-left: 52px;
-width: 566px;
+width: 566px; */
 }
 .header_link{
-    padding-left: 52px;
     padding-top: 30px;
 }
 .header_link a{
@@ -180,7 +190,9 @@ border-left: 1px solid black;
 .header_link a{
    margin-right: 10px;
 }
-
+.heading{
+    padding: 140px 0 160px 250px;
+}
 .lorems{
     /* background: linear-gradient(0deg, #201F22, #201F22),
 linear-gradient(0deg, #DE4320, #DE4320); */
@@ -191,17 +203,24 @@ font-family: 'Anton', sans-serif;
     letter-spacing: 0em;
     display: flex;
     padding: 10px 56px;
-    height: 350px;
+    /* height: 350px;
     width: 696px;
     margin-top: 115px;
     margin-left: 175px;
-    margin-right: 472px;
-border-radius: undefinedpx;
+    margin-right: 472px; */
+/* border-radius: undefinedpx; */
 
+}
+.heading h1{
+    font-family: 'Anton', sans-serif;
+     font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    width: 696px;
 }
 
 
-.lorems .red {
+ .red {
 color: #de4320;
 }
 

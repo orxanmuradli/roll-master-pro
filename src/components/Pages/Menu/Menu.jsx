@@ -15,7 +15,8 @@ const Menu = () => {
   return (
     <div className="special">
       <div className="special-tittle">
-        <div className="menu_title">
+     <div className="container">
+     <div className="menu_title">
           <div>
             <h3>MENYU</h3>
           </div>
@@ -99,6 +100,7 @@ const Menu = () => {
             </div>
           </div>
         </div>
+     </div>
       </div>
     </div>
   );
