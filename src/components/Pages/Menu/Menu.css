@@ -10,7 +10,7 @@
 
 }
 .left-container{
-    width: 70%;
+    width: 65%;
     padding-left: 70px;
     padding-top: 30px;
     position: relative;
@@ -69,6 +69,7 @@
     font-family: 'Anton', sans-serif;
     font-size: 10px;
     line-height: 0px;
+    transition: 0.2s;
     
 }
 .menu-download{
@@ -79,8 +80,28 @@
     font-size: 24px;
     line-height: 32px;
     line-height: 89%;
+    display: flex;
+    gap: 12px;
+    cursor: pointer;
+    
+
 }
 
+.menu-download:hover{
+    color: black;
+}
+
+.download:hover{
+    color: black;
+}
+
+.menu-download svg:hover path {
+    fill: black;
+}
+
+/* .menu-download svg{
+    margin: auto 10px;
+} */
 .specials p{
     
    color:  #201F22;
@@ -196,7 +217,7 @@ text-align: center;
 }
 .scor img{
     /* margin-top: 360px; */
-    
+    cursor: pointer;
 }
 
 .Rollar p{

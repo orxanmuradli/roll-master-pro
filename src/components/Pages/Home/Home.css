@@ -175,11 +175,25 @@ border-left: 1px solid black;
     
 }
 
+.header_link :hover{
+    background-color: #FFFFFF;
+    color: black;
+}
+
+.header_link:hover svg path {
+    fill: #201f22;
+}
 .header_link a{
     color: #FFFFFF;
-
+  
     
 }
+
+
+
+/* .link_rectangle :hover{
+    color: black;
+} */
 /* .link_rectangle{
     padding: 41px;
 } */
@@ -187,6 +201,10 @@ border-left: 1px solid black;
 .arrow-icons{
     margin-left: 13px;
 }
+
+
+
+
 .header_link a{
    margin-right: 10px;
 }

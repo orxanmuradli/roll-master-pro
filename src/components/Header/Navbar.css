@@ -19,7 +19,15 @@ justify-content: space-between;
   
 }
 
-.rightSide img{
+
+.searching{
+  padding-top: 6px;
+}
+
+.rightSide svg:hover path{
+  fill:#de4320;
+}
+/* .rightSide img{
   width: 23px;
   height: 26px;
   margin-top: 6px;
@@ -29,9 +37,10 @@ justify-content: space-between;
  
 
 
-}
-
-
+} */
+/* .search-hover :hover{
+  color: red;
+} */
 
 .navbar a{
    color: #201F22;
