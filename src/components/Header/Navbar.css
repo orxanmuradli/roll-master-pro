@@ -14,7 +14,7 @@ justify-content: space-between;
     align-items: center;
 }
  body{
-  background-color: #fff;
+  background-color: var(--body-bg-color);
  }
 
  .rightSide{
@@ -51,7 +51,8 @@ justify-content: space-between;
 } */
 
 .navbar a{
-   color: #201F22;
+   /* color: #201F22; */
+   color: var(--color-text);
    text-decoration: none;
   font-size: 24px;
  line-height: 36px;

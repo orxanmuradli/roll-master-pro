@@ -241,10 +241,11 @@ font-family: 'Anton', sans-serif;
     font-size: 48px;
     line-height: 72px;
     width: 696px;
+    color: var( --color-text);
 }
 
 
  .red {
-color: #de4320;
+color:var(--text-red-color);
 }
 

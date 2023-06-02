@@ -5,6 +5,7 @@ import SearchBar from "../Pages/SearchBar/SearchBar";
 import BookData from "../../data/search-data.json";
 import React, { useState } from "react";
 
+
 const Header = () => {
   const [search,setSearch] = useState(false);
   return (
@@ -17,6 +18,7 @@ const Header = () => {
         {/* <div className="contex">
            
            </div> */}
+    
         <div className="rightSide" id="rightSide">
        
           <Link to="/"></Link>

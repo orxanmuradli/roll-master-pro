@@ -3,6 +3,7 @@ import insta from "../../assets/insta.png";
 import face from "../../assets/face.png";
 import wolt from "../../assets/wolt.png";
 import darkmood from "../../assets/darkmood.png";
+import Theme from "../Theme/Theme";
 
 const SocialMedia = () => {
   return (
@@ -14,7 +15,8 @@ const SocialMedia = () => {
         rel="noreferrer"
       >
         <div className="footer-bottom-up-el_div_icon">
-        <img src={darkmood} alt="" />
+          <Theme />
+        {/* <img src={darkmood} alt="" /> */}
         </div>
       </a>
 

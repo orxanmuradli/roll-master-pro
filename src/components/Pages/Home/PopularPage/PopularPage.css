@@ -16,7 +16,7 @@
 }
 
 .popular-tittle h1{
-    color: #DE4320;
+   color: var(--text-red-color);
     font-family: 'Anton', sans-serif;
     font-size: 40px;
     font-weight: 400;

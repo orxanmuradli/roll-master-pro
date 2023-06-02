@@ -8,6 +8,24 @@
   -o-user-drag: none; 
 }
 
+:root{
+--color-text:black;
+
+--body-bg-color:white;
+--text-red-color:#de4320;;
+
+
+
+}
+
+.dark{
+  --color-text:white;
+  --body-bg-color:black;
+  --text-red-color:#F6431B;
+
+
+}
+
 
 
 body{
@@ -15,6 +33,8 @@ body{
   margin: 0;
   font-family: 'Anton', sans-serif;
   overflow-x: hidden;
+  background-color: var(--body-bg-color);
+
   
   
 }
