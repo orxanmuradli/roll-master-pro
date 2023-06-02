@@ -1,5 +1,9 @@
 .green{
-    color: #7cfc00;
+    color: #201F22;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30.11px;
 }
 
 .footer-content{
@@ -54,8 +58,10 @@
 .right-content p {
     font-family: 'Anton', sans-serif;
     font-size: 20px;
-    font-weight: 400;
-    line-height: 29px;
+    font-weight: 700;
+    line-height: 30.11px;
+    color: #BDBDC8;
+    
  
 }
 

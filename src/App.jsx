@@ -2,6 +2,8 @@ import "./App.css";
 import Header from "./components/Header/Navbar";
 import {    Route, Routes } from "react-router-dom";
 import Home from "./components/Pages/Home/Home";
+import SearchBar from "./components/Pages/SearchBar/SearchBar";
+import BookData from "../src/data/search-data.json"
 // import Blog from "./components/Pages/Blog/Blog";
 // import PopularPage from "./components/Pages/Home/PopularPage/PopularPage";
 import Footer from "./components/Footer/Footer";
@@ -24,6 +26,7 @@ function App() {
         <Blog />
       
       </Router> */}
+      {/* <SearchBar placoholder="Axtarış et" data={BookData}/> */}
           <Header />
       <Routes>
         <Route path="/" element={<Home />} />

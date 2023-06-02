@@ -148,14 +148,16 @@ border-left: 1px solid black;
     color: red;
 }
 
+
+
 .face{
     padding: 25px;
     border-right: 1px solid #201f22;
 
 }
-.food{
+/* .food{
     padding: 25px;
-}
+} */
 
 .content{
     display: flex;
@@ -187,6 +189,10 @@ border-left: 1px solid black;
     color: #FFFFFF;
   
     
+}
+
+.header_link svg{
+    padding-left: 18px;
 }
 
 

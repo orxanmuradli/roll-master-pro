@@ -2,6 +2,8 @@ import insta from '../../assets/insta.png';
 import face from '../../assets/face.png';
 import './Footer.css'
 import React from 'react';
+import SocialMedia from "../Footer/Socialmedia";
+
 
 
 const Footer = () => {
@@ -10,8 +12,31 @@ const Footer = () => {
      <div className="container">
      <div className="footer-top">
        <div className="left-content">
+       <a
+     
+        href="https://www.instagram.com/roll_master_azerbaijan/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <div className="">
+          <img src={insta} alt="" />
+        </div>
+      </a>
+
+
+      <a
+        
+        href="https://www.facebook.com/people/Roll-Master/100092686596932/?mibextid=LQQJ4d"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <div className="">
+          <img src={face} alt="" />
+        </div>
+      </a>
+{/* 
        <img src={insta} alt="" />
-       <img src={face} alt="" />
+       <img src={face} alt="" /> */}
        </div>
        <div className='right-content'>
             <h1>MENYU</h1>
