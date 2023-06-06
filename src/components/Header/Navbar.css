@@ -10,7 +10,7 @@ justify-content: space-between;
   top: 0;
   background-color: white;
   width: 96%;
-  overflow: hidden;
+  /* overflow: hidden; */
     height: 100px;
     z-index: 1000;
 }

@@ -13,6 +13,7 @@ function SearchBar({ placoholder, data, className, setSearch }) {
     const newFilter = data.filter((value) => {
       return value.title.toLowerCase().includes(searchWord.toLowerCase());
     });
+
     if (searchWord === "") {
       setFilteredData([]);
     } else {
@@ -69,13 +70,21 @@ function SearchBar({ placoholder, data, className, setSearch }) {
       {filteredData.length !== 0 && (
         // <div className="Result"></div>
         <div className="dataResult">
-          {filteredData.slice(0, 15).map((value, key) => {
-            return (
-              <a className="dataItem" href={value.link} target="_blank">
-                {value.title} <p />
-              </a>
-            );
-          })}
+          {filteredData?.slice(0, 15)?.map((value, key) =>
+          //  {
+          //  return console.log(value.title)
+           (
+            <a className="dataItem" href={value.link}>
+              <p>{value.title}</p>
+            </a>
+          )
+            // return (
+            //   <a className="dataItem" href={value.link} target="_blank">
+            //     {value.title} <p />
+            //   </a>
+            // );
+            // }
+            )}
         </div>
       )}
     </div>
