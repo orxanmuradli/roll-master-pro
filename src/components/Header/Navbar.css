@@ -66,6 +66,9 @@ align-items: center;
   color: red;
 } */
 
+
+
+
 .navbar a{
    /* color: #201F22; */
    color: var(--color-text);

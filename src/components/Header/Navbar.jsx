@@ -28,8 +28,9 @@ const Header = () => {
      </div> */}
 
           <div style={{ display: "flex",gap: "34.8px",  }}>
-            <div className="set-search">    
-            <svg
+            <div className="set-search">
+                  
+            <svg 
               onClick={() => setSearch(true)}
               className=""
               width="24"
