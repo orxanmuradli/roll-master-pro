@@ -73,6 +73,7 @@ width: 566px; */
   padding: 21px;
   display: inline-block;
   text-decoration: none;
+  transition: 0.3s;
 }
 
 .social {
@@ -116,6 +117,7 @@ width: 566px; */
   font-family: "Anton", sans-serif;
   line-height: 36px;
   cursor: pointer;
+  transition: 0.3s;
 }
 .lefting1 p:hover{
     color: #de4320;
@@ -132,8 +134,9 @@ width: 566px; */
   line-height: 36px;
   font-style: Regular;
   line-height: 100%;
-  margin-left: 20px;
+  margin-inline: 20px;
   cursor: pointer;
+  transition: 0.3s;
 }
 .righting2 span:hover {
   color: #de4320;
@@ -144,7 +147,7 @@ width: 566px; */
 }
 
 .insta img:hover {
-  color: #de4320;
+  stroke: #de4320;
 }
 
 .face {
