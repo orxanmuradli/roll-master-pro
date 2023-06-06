@@ -5,7 +5,8 @@
 
 .banner {
   padding:100px 0px 40px;
-  width: calc(100%-80px) !important;
+  /* width: calc(100%-80px) !important; */
+  width: calc(100% - 0px)!important;
 }
 .home {
   padding: 0px 40px;
