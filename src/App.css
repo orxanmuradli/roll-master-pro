@@ -8,20 +8,29 @@
   -o-user-drag: none; 
 }
 
+
+/* // light renkler burda yazilmalidi */
 :root{
 --color-text:black;
+--menu-text-color:#fff;
 
 --body-bg-color:white;
 --text-red-color:#de4320;;
-
+/* --popular-bg-color:blue; */
+--menu-bg-color:#201F22;
 
 
 }
+/* // dark renkler burda yazilmalidi */
 
 .dark{
   --color-text:white;
+--menu-text-color:black;
+
   --body-bg-color:black;
   --text-red-color:#F6431B;
+  /* --popular-bg-color:blue; */
+  --menu-bg-color:white;
 
 
 }

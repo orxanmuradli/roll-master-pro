@@ -5,34 +5,32 @@ import SearchBar from "../Pages/SearchBar/SearchBar";
 import BookData from "../../data/search-data.json";
 import React, { useState } from "react";
 
-
 const Header = () => {
-  const [search,setSearch] = useState(false);
+  const [search, setSearch] = useState(false);
   return (
-    <div className="container">
-      <div className="navbar" style={{transform:`translateX(${search?"0px":0})`}}>
-        
+    <div className="container navs">
+      <div
+        className="navbar"
+        style={{ transform: `translateX(${search ? "0px" : 0})` }}
+      >
         <div className="leftSide">
           <img src={Logo} />
         </div>
         {/* <div className="contex">
            
            </div> */}
-    
+
         <div className="rightSide" id="rightSide">
-       
           <Link to="/"></Link>
-           
-           
-        
 
           {/* <div className="search-hover">
      <img src={search} alt="" />
      </div> */}
 
-          <div style={{ display: "flex", gap: "40px" }}>
-          <svg
-          onClick={()=>setSearch(true)}
+          <div style={{ display: "flex",gap: "34.8px",  }}>
+            <div className="set-search">    
+            <svg
+              onClick={() => setSearch(true)}
               className=""
               width="24"
               height="24"
@@ -45,16 +43,25 @@ const Header = () => {
                 fill="#201F22"
               />
             </svg>
+            
+            
+            
+            
+            </div>
+       
             <Link to="/MENYU">MENYU</Link>
             <Link to="/KAMPANİYALAR">KAMPANİYALAR</Link>
             <Link to="/HAQQIMIZDA">HAQQIMIZDA</Link>
             <Link to="/BLOQ">BLOQ</Link>
             <Link to="/ƏLAQƏ">ƏLAQƏ</Link>
-
           </div>
-          <SearchBar className={search?"active":""} setSearch={setSearch} placoholder="Axtarış et" data={BookData} />
+          <SearchBar
+            className={search ? "active" : ""}
+            setSearch={setSearch}
+            placoholder="Axtarış et"
+            data={BookData}
+          />
         </div>
-      
       </div>
     </div>
   );

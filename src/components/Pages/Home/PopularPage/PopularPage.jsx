@@ -13,7 +13,7 @@ const PopularPage = () => {
         <div className="cards">
           <div className="cart">
             <img src={sushi} alt="" />
-            <div>
+            <div className="set">
               <h2>Nobel Set</h2>
               <p>DÜYÜ, NORİ, XİYAR </p>
               <span>32 AZN</span>
@@ -21,7 +21,7 @@ const PopularPage = () => {
           </div>
           <div className="cart">
             <img src={noodle} alt="" />
-            <div>
+            <div className="set-2">
               <h2>Seafood Noodle</h2>
               <p>DÜYÜ, NORİ, XİYAR </p>
               <span>32 AZN</span>
@@ -29,7 +29,7 @@ const PopularPage = () => {
           </div>
           <div className="cart">
             <img src={spring} alt="" />
-            <div>
+            <div className="set-3">
               <h2>Spring Roll Salmon</h2>
               <p>DÜYÜ, NORİ, XİYAR </p>
               <span>32 AZN</span>

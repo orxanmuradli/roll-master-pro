@@ -62,8 +62,8 @@
     align-items: center;
     justify-content: space-between;
     width: 33.3%;
-    background: #201F22;
-    color: #FFFFFF;
+    background:  var(--menu-bg-color);
+    color: var(--menu-text-color);
     border-right: 1px solid #FFFFFF;
     image-rendering: -webkit-optimize-contrast;
     font-family: 'Anton', sans-serif;

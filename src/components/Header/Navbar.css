@@ -1,31 +1,45 @@
+
 .navbar{
-    width: 94%;
-    height: 100px;
    display: flex;
 justify-content: space-between;
   /* gap: 8px; */
-  position: relative;
+  /* position: relative; */
   margin: 0 auto;
   align-items: center;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width: 96%;
+  overflow: hidden;
+    height: 100px;
+    z-index: 1000;
 }
  .leftSide{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
  body{
   background-color: var(--body-bg-color);
  }
 
  .rightSide{
-  padding-top: 41px;
+  padding-top: 20px;
   /* padding-right: 40px; */
   display: flex;
  gap: 40px;
+ width: 51%;
  /* padding-bottom: 8px; */
   
 }
 
+
+.set-search{
+display: flex;
+justify-content: center;
+align-items: center;
+}
 
 .searching{
   padding-top: 6px;

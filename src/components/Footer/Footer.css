@@ -18,6 +18,10 @@
     gap: 18px;
     font-family: 'Anton', sans-serif;
 }
+
+.left-content svg:hover{
+    stroke: red;
+}
 .right-content{
     display: flex;
     gap:48px;

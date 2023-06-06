@@ -38,7 +38,7 @@ function Home() {
               <a className="link_rectangle" href="#">
                 MENYUYA KEÇİD ET
                 <svg
-                  width="22"
+                  width="21.33"
                   height="16"
                   viewBox="0 0 22 16"
                   fill="none"

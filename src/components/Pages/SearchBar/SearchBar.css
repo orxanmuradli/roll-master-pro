@@ -37,6 +37,7 @@ width: 300px;
 outline: 0;
 
 
+
 }
 
 .searchIcon{
@@ -106,7 +107,7 @@ a{
 } */
 .searchIcon svg:hover{
     stroke: #DE4320;
-    ;
+    
 }
 #clearBtn{
 cursor: pointer;
@@ -115,4 +116,6 @@ cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 30px;
+    margin-left: -44px;
 }
