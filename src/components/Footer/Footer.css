@@ -36,11 +36,13 @@
 
 .right-content h1{
     cursor: pointer;
+    /* color: var(--text-red-color); */
    
 }
 .footer-top{
     border-top: 1px solid black;
     border-bottom: 1px solid black;
+   
     display: flex;
     justify-content: space-between;
     align-items: center;

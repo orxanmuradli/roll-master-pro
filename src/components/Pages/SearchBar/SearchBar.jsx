@@ -26,7 +26,7 @@ function SearchBar({ placoholder, data, className, setSearch }) {
   };
   return (
     <div className={`search ${className}`}>
-      <img src={Logo} />
+      {/* <img src={Logo} /> searhdaki logo  baglandi */} 
       <div className="searchinputs">
         <input
           type="text"

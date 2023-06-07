@@ -13,7 +13,7 @@
 :root{
 --color-text:black;
 --menu-text-color:#fff;
-
+--footer-text-color:black;
 --body-bg-color:white;
 --text-red-color:#de4320;;
 /* --popular-bg-color:blue; */
@@ -26,7 +26,7 @@
 .dark{
   --color-text:white;
 --menu-text-color:black;
-
+--footer-text-color:white;
   --body-bg-color:black;
   --text-red-color:#F6431B;
   /* --popular-bg-color:blue; */

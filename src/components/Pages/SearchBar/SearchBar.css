@@ -5,15 +5,17 @@
 
 
 .search {
-    width: 100%;
+    width: 100%; 
   position:absolute;
   height:100%;
   top: 50%;
   right: 0;
   transform: translate(5%,-50%);
-  background-color: #fff;
+  /* backround silindi */
+  /* background-color: #fff; */
   display: flex;
-  justify-content: space-between;
+  /* justify content space between den flex-end e le deyisildi */
+  justify-content: flex-end;
   align-items: center;
   opacity: 0;
   visibility: hidden;
@@ -28,7 +30,7 @@
     margin-bottom: 20px;
 }
 .search input{
-background-color: white;
+background-color: #fff;
 border: 0;
 border-radius: 2px;
 border-top-right-radius: 0px ;
@@ -45,20 +47,40 @@ cursor: pointer;
 }
 
 .searchIcon{
-    width: 50px;
-    background-color: white;
+    /* width: 50px;  silindi*/
+    background-color: #fff;
     display: grid;
     place-items: center;
+    /*margin-right: 10px; elave olundu */
+
+    margin-right: 10px;
 }
 
 .searchinputs{
-    width: 76%;
+    /* width 76% den 80% qalxdi */
+    width: 80%; 
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #BDBDC8;
+    /* border-bottom: 1px solid #BDBDC8; */
     justify-content: space-between;
     margin-right: 15px;
+    /* backround white elave olundu */
+    background-color: #fff;
+    position: relative;
+
+    
 }
+.searchinputs::after{
+
+    content: "";
+    display: inline-block;
+    width: 94%;
+    height: 1px;
+    background-color: #BDBDC8;
+    position: absolute;
+    bottom: 0;
+}
+
 .contex{
     display: flex;
     width: 100%;
@@ -121,6 +143,7 @@ cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 30px;
+    /* gap 30 px dan 50 px qalxdi */
+    gap: 50px;
     margin-left: -44px;
 }
