@@ -18,7 +18,8 @@
 --text-red-color:#de4320;;
 /* --popular-bg-color:blue; */
 --menu-bg-color:#201F22;
-
+--header-bg-color:#fff;
+--social-bg-color:black;
 
 }
 /* // dark renkler burda yazilmalidi */
@@ -31,8 +32,8 @@
   --text-red-color:#F6431B;
   /* --popular-bg-color:blue; */
   --menu-bg-color:white;
-
-
+  --header-bg-color:#000;
+  --social-bg-color:#fff;
 }
 
 

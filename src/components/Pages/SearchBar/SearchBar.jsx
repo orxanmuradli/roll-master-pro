@@ -26,7 +26,7 @@ function SearchBar({ placoholder, data, className, setSearch }) {
   };
   return (
     <div className={`search ${className}`}>
-      {/* <img src={Logo} /> searhdaki logo  baglandi */} 
+      {/* <img src={Logo} /> searhdaki logo  baglandi */}
       <div className="searchinputs">
         <input
           type="text"
@@ -69,22 +69,24 @@ function SearchBar({ placoholder, data, className, setSearch }) {
       </div>
       {filteredData.length !== 0 && (
         // <div className="Result"></div>
+
+         
         <div className="dataResult">
-          {filteredData?.slice(0, 15)?.map((value, key) =>
-          //  {
-          //  return console.log(value.title)
-           (
-            <a className="dataItem" href={value.link}>
-              <p>{value.title}</p>
-            </a>
-          )
+          {filteredData?.slice(0, 15)?.map(
+            (value, key) => (
+              //  {
+              //  return console.log(value.title)
+              <a className="dataItem" href={value.link}>
+                <p>{value.title}</p>
+              </a>
+            )
             // return (
             //   <a className="dataItem" href={value.link} target="_blank">
             //     {value.title} <p />
             //   </a>
             // );
             // }
-            )}
+          )}
         </div>
       )}
     </div>

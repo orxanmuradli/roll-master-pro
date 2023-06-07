@@ -118,11 +118,14 @@ width: 100%;
     display: flex;
     align-items: center;
     color: black;
+   
 
 }
 
 .dataItem p{
-    margin-left: 10px;
+    margin-left: 19%;
+    color: #201F22;
+    cursor: pointer;
 }
 
 a{
