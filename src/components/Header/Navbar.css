@@ -41,6 +41,7 @@ background-color: var(--header-bg-color);
 display: flex;
 justify-content: center;
 align-items: center;
+cursor: pointer;
 }
 
 .searching{
@@ -87,4 +88,12 @@ transition: 0.3s;
 
  .rightSide svg {
 font-size: 40px;
+
 }
+
+/* @media only screen and (max-width: 768px){
+.navbar{
+  width: 25%;
+  position: fixed;
+}
+} */

@@ -81,9 +81,14 @@ width: 566px; */
   margin-top: 0px;
   height: 70px;
   justify-content: space-between;
-  border: 1px solid black;
+  border: 1px solid var(--color-text);
+ 
+
 }
 
+.darkmood svg{
+  cursor: pointer;
+}
 .right {
   display: flex;
   justify-content: center;
@@ -94,7 +99,7 @@ width: 566px; */
   line-height: 36px;
   letter-spacing: 0em;
   text-align: left;
-  border-left: 1px solid black;
+  border-left: 1px solid var(--color-text);;
 }
 
 .left {
@@ -102,13 +107,13 @@ width: 566px; */
   font-family: "Anton", sans-serif;
   font-size: 24px;
   line-height: 36px;
-  border-right: 1px solid #201f22;
+  border-right: 1px solid var(--color-text);
   margin-left: -22px;
 }
 
 .lefting1 {
   padding: 20px;
-  border-right: 1px solid #201f22;
+  border-right: 1px solid var(--color-text);;
 }
 
 .lefting1 p {
@@ -118,6 +123,7 @@ width: 566px; */
   line-height: 36px;
   cursor: pointer;
   transition: 0.3s;
+  color: var(--color-text);
 }
 .lefting1 p:hover{
     color: #de4320;
@@ -137,22 +143,26 @@ width: 566px; */
   margin-inline: 20px;
   cursor: pointer;
   transition: 0.3s;
+  color: var(--color-text);
 }
-.righting2 span:hover {
+/* .righting2 span:hover {
   color: #de4320;
-}
+} */
 .insta {
   padding: 25px;
-  border-right: 1px solid #201f22;
+  border-right: 1px solid var(--color-text);;
 }
 
-.insta img:hover {
-  stroke: #de4320;
+.insta  svg:hover path {
+ fill: #de4320;
 }
 
 .face {
   padding: 25px;
-  border-right: 1px solid #201f22;
+  border-right: 1px solid var(--color-text);;
+}
+.face svg:hover path{
+  fill: #de4320;
 }
 /* .food{
     padding: 25px;
@@ -164,7 +174,7 @@ width: 566px; */
 }
 
 .wolt {
-  border-right: 1px solid #201f22;
+  border-right: 1px solid var(--color-text);;
   padding: 25px 22px;
 }
 

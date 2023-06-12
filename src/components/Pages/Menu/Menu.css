@@ -1,6 +1,6 @@
 
 .special-bar{
-   border: 1px solid black;
+   border: 1px solid var(--color-text);
    border-right: 0;
    /* margin-left: 42px; */
    display: flex;
@@ -47,7 +47,7 @@
     padding-top: 78px;
     line-height: 60px;
     margin-bottom: 20px;
- 
+    cursor: default;
    
 }
 .wrapper{
@@ -64,7 +64,7 @@
     width: 33.3%;
     background:  var(--menu-bg-color);
     color: var(--menu-text-color);
-    border-right: 1px solid #FFFFFF;
+    border-right: 1px solid var(--body-bg-color);
     image-rendering: -webkit-optimize-contrast;
     font-family: 'Anton', sans-serif;
     font-size: 10px;
@@ -199,6 +199,12 @@ text-align: center;
 }
 .wrapper-cart img {
     position: relative;
+
+  
+}
+
+.cart-container img{
+    color: var(--color-text);
 }
 
 .scor{
@@ -223,6 +229,7 @@ text-align: center;
     /* margin-top: 360px; */
     cursor: pointer;
 }
+
 
 .Rollar p{
     font-size: 36px;
