@@ -53,3 +53,36 @@ body {
   max-width: 95%;
   margin: 0 auto;
 }
+
+@media only screen and (max-width: 1300px) {
+  .navbar{
+      justify-content: flex-start !important;
+      gap: 31%;
+  }
+}
+
+@media only screen and (max-width: 1230px) {
+  .leftSide{
+    display: inline-block;
+  }
+  .rightSide{
+    gap: 0;
+  }
+  .navbar{
+    gap: 25%;
+}
+}
+
+@media only screen and (max-width: 992px){
+.navbar a{
+  font-size: 18px !important;
+}
+}
+
+@media only screen and (max-width: 768px){
+  .navbar a{
+    font-size: 18px !important;
+  }
+
+  }
+  

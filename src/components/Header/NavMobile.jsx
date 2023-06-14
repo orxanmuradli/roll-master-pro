@@ -1,6 +1,6 @@
 import Logo from "../../assets/logo.png";
 import { Link } from "react-router-dom";
-import "./Navbar.css";
+import "./NavMobile.css";
 import SearchBar from "../Pages/SearchBar/SearchBar";
 import BookData from "../../data/search-data.json";
 import React, { useState } from "react";
@@ -16,11 +16,16 @@ const Header = () => {
         <div className="leftSide">
           <img src={Logo} />
         </div>
-  
+        {/* <div className="contex">
+           
+           </div> */}
+
         <div className="rightSide" id="rightSide">
           <Link to="/"></Link>
 
-    
+          {/* <div className="search-hover">
+     <img src={search} alt="" />
+     </div> */}
 
           <div style={{ display: "flex",gap: "34.8px",  }}>
             <div className="set-search">
@@ -44,41 +49,12 @@ const Header = () => {
             
             
             </div>
- 
-          
-      
-         <ul id='desktop'>
-          <li>  <Link to="/MENYU">MENYU</Link></li>
-            <li><Link to="/KAMPANİYALAR">KAMPANİYALAR</Link></li>
-          <li>  <Link to="/HAQQIMIZDA">HAQQIMIZDA</Link></li>
-          <li><Link to="/BLOQ">BLOQ</Link></li>
-           <li> <Link to="/ƏLAQƏ">ƏLAQƏ</Link></li>
-         </ul>
- </div>
-
-      <div id="showw">
-      <input type="checkbox" id="menu" />
-    <label for="menu" class="bars">
-      <div class="bar"></div>
-    </label>
-         <ul id="mobile-menu" >
-          
-              <li>
-                <Link href="#">Home</Link>
-              </li>
-              <li>
-                <Link href="#">Services</Link>
-              </li>
-              <li>
-                <Link href="#">About</Link>
-              </li>
-              <li>
-                <Link href="#">Gallery</Link>
-              </li>
-              <li>
-                <Link href="#">Contact</Link>
-              </li>
-         </ul>
+       
+            <Link to="/MENYU">MENYU</Link>
+            <Link to="/KAMPANİYALAR">KAMPANİYALAR</Link>
+            <Link to="/HAQQIMIZDA">HAQQIMIZDA</Link>
+            <Link to="/BLOQ">BLOQ</Link>
+            <Link to="/ƏLAQƏ">ƏLAQƏ</Link>
           </div>
           <SearchBar
             className={search ? "active" : ""}

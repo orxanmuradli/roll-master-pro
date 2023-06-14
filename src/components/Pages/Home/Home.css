@@ -125,16 +125,16 @@ width: 566px; */
   transition: 0.3s;
   color: var(--color-text);
 }
-.lefting1 p:hover{
+/* .lefting1 p:hover{
     color: #de4320;
-}
+} */
 
 
 .righting2 {
   padding: 20px;
 }
 
-.righting2 span {
+.righting2 a {
   font-size: 24px;
   font-family: "Anton", sans-serif;
   line-height: 36px;
@@ -144,6 +144,10 @@ width: 566px; */
   cursor: pointer;
   transition: 0.3s;
   color: var(--color-text);
+}
+
+.righting2 a:hover{
+  color: #de4320;
 }
 /* .righting2 span:hover {
   color: #de4320;
@@ -249,3 +253,15 @@ linear-gradient(0deg, #DE4320, #DE4320); */
 .footer-bottom-up-el_div_icon svg:hover {
   stroke: #de4320;
 }
+
+
+
+
+@media only screen and (max-width: 768px){
+  .heading{
+    padding: 100px 60px;
+    font-size: 24px;
+    font-weight: 400;
+  }
+  }
+  
