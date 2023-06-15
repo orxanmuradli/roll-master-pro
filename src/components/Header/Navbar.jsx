@@ -64,19 +64,19 @@ const Header = () => {
          <ul id="mobile-menu" >
           
               <li>
-                <Link href="#">Home</Link>
+                <Link href="#">MENYU</Link>
               </li>
               <li>
-                <Link href="#">Services</Link>
+                <Link href="#">KAMPANİYALAR</Link>
               </li>
               <li>
-                <Link href="#">About</Link>
+                <Link href="#">HAQQIMIZDA</Link>
               </li>
               <li>
-                <Link href="#">Gallery</Link>
+                <Link href="#">BLOQ</Link>
               </li>
               <li>
-                <Link href="#">Contact</Link>
+                <Link href="#">ƏLAQƏ</Link>
               </li>
          </ul>
           </div>

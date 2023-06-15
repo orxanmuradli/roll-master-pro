@@ -64,7 +64,9 @@ function Home() {
             </div>
             <div className="righting2">
               {" "}
-              <a href="tel:05055555555">+994 50 736 56 16</a>
+              <a href="https://web.whatsapp.com/">+994 50 736 56 16
+            
+              </a>
               {/* <span>+994 50 736 56 16</span> */}
             </div>
           </div>

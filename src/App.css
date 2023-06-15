@@ -79,7 +79,7 @@ body {
 }
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 991px){
   .navbar a{
     font-size: 18px !important;
   }

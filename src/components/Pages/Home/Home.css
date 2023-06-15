@@ -257,11 +257,18 @@ linear-gradient(0deg, #DE4320, #DE4320); */
 
 
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 991px){
   .heading{
     padding: 100px 60px;
     font-size: 24px;
     font-weight: 400;
+  }
+  .righting2 a {
+    /* display: flex; */
+    font-size: 20px;
+  }
+  .heading h1{
+    width: 480px;
   }
   }
   

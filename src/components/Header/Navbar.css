@@ -72,6 +72,10 @@ cursor: pointer;
   gap:35px;
   
 }
+
+ .navbar #desktop a:hover{
+  color: #de4320;
+} 
 .navbar ul li {
   list-style: none;
 }
@@ -107,12 +111,21 @@ font-size: 40px;
 } */
 
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 991px){
   #desktop{
    display: none !important;
   }
   #showw{
     display: block;
+  }
+
+  .righting2 a {
+    /* display: flex; */
+    font-size: 20px;
+  }
+
+  .lefting1 p {
+    font-size: 19px;
   }
   .bars {
     width: 40px;
@@ -120,12 +133,25 @@ font-size: 40px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    right: 100px;
+    right: 16px;
     cursor: pointer;
     overflow: hidden;
   }
-  input {
-    display: none;
+  
+  
+  #showw input {
+    display: none!important;
+  }
+  .searchinputs{
+    width: 100%!important;
+    height: 100px;
+  }
+  .searchinputs::after {
+width:100%!important;
+bottom: 15%!important;
+  }
+  .dataResult .dataItem {
+height:70px!important;
   }
   .bars::before {
     content: "";
@@ -174,7 +200,7 @@ font-size: 40px;
     position: absolute;
     top: 100%;
     left: 50%;
-    background-color: wheat;
+    background-color: #fff;
     transform: scaleY(0) translateX(-50%);
     transform-origin: top;
     transition: 0.4s;
