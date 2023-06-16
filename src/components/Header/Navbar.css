@@ -6,7 +6,7 @@ justify-content: space-between;
   /* position: relative; */
   margin: 0 auto;
   align-items: center;
-  position: fixed;
+  position: sticky;
   top: 0;
 background-color: var(--header-bg-color);
   width: 96%;
@@ -30,6 +30,8 @@ background-color: var(--header-bg-color);
   padding-top: 20px;
   /* padding-right: 40px; */
   display: flex;
+  /* align-items: center;
+  justify-content: center; */
  gap: 40px;
  width: 51%;
  /* padding-bottom: 8px; */
@@ -138,6 +140,16 @@ font-size: 40px;
     overflow: hidden;
   }
   
+  .rightSide{
+    padding-top: 20px;
+  
+    display: flex;
+    
+    justify-content: center;
+   gap: 40px;
+   width: 51%;
+   
+  }
   
   #showw input {
     display: none!important;
