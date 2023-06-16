@@ -149,6 +149,9 @@ width: 566px; */
 .righting2 a:hover{
   color: #de4320;
 }
+.right svg{
+  fill: var(--icons-bg-color);
+}
 /* .righting2 span:hover {
   color: #de4320;
 } */

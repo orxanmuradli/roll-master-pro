@@ -4,6 +4,8 @@ import Theme from "../Theme/Theme";
 
 const SocialMedia = () => {
   return (
+  <>
+
     <div className="right">
       <a className="insta" target="_blank" rel="noreferrer">
         <div className="footer-bottom-up-el_div_icon">
@@ -20,7 +22,7 @@ const SocialMedia = () => {
         rel="noreferrer"
       >
         <div className="footer-bottom-up-el_div_icon">
-          <svg
+          <svg 
             width="26"
             height="26"
             viewBox="0 0 26 26"
@@ -69,6 +71,7 @@ const SocialMedia = () => {
       </a>
 
        </div>
+  </>
      
   
   );
