@@ -274,4 +274,21 @@ linear-gradient(0deg, #DE4320, #DE4320); */
     width: 480px;
   }
   }
+  @media only screen and (max-width: 480px){
+    .social .right{
+display: none;
+    }
+    .social .left{
+      width:100%;
+
+margin-left:0;    }
+.social .left>div{
+  width:45%;    }
+  .heading h1{
+    width: 90%;
+  }
+  .headerContainer{
+    width: 100%;
+  }
+    }
   

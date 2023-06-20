@@ -58,6 +58,9 @@
   justify-content: space-between;
   align-items: center;
 }
+.footer-top-mobile{
+  display: none;
+}
 
 .left-content span {
   font-family: "Anton", sans-serif;
@@ -85,4 +88,26 @@
   font-weight: 400;
   line-height: 29px;
   margin-left: -45px;
+}
+.footer-top-mobile{
+  display: none;
+  justify-content: center;
+  font-family: "Anton", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  border-left: 1px solid
+}
+
+@media only screen and (max-width: 480px){
+  .footer-top{
+    display: none;
+  }
+  .footer-top-mobile{
+    display: flex;
+  }
+
+
 }
