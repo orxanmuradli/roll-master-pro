@@ -6,7 +6,7 @@ const SocialMedia = () => {
   return (
     <>
       <div className="right">
-        <a className="insta" target="_blank" rel="noreferrer">
+        <a className="darkMode" target="_blank" rel="noreferrer">
           <div className="footer-bottom-up-el_div_icon">
             <Theme />
             {/* <img src={darkmood} alt="" /> */}

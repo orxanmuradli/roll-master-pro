@@ -38,10 +38,8 @@
   --header-bg-color: #000;
   --social-bg-color: #fff;
   --popular-bg-color: black;
-  
-
 }
-html{
+html {
   overflow-x: hidden;
 }
 
@@ -63,34 +61,68 @@ body {
 } */
 
 @media only screen and (max-width: 1300px) {
-  .navbar{
-      justify-content: flex-start !important;
-      gap: 31%;
+  .navbar {
+    justify-content: flex-start !important;
+    gap: 31%;
   }
+  .rightSide {
+    /* gap: 80px; */
+    padding-left: 40px;
+  }
+  /* .navbar #desktop{
+    margin-left: -40px;
+  } */
 }
 
 @media only screen and (max-width: 1230px) {
-  .leftSide{
+  .leftSide {
     display: inline-block;
   }
-  .rightSide{
+  .rightSide {
     gap: 0;
+    margin-left: 24px;
   }
-  .navbar{
+  .navbar {
     gap: 25%;
-}
-}
-
-@media only screen and (max-width: 992px){
-.navbar a{
-  font-size: 18px !important;
-}
+  }
 }
 
-@media only screen and (max-width: 991px){
-  .navbar a{
+@media only screen and (max-width: 992px) {
+  .navbar a {
     font-size: 18px !important;
   }
 
+  .heading h1 {
+    margin-left: -84px;
   }
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar a {
+    font-size: 18px !important;
+  }
+  .set-search {
+    margin-left: 330px;
+    margin-top: -15px;
+  }
+  .heading h1 {
+    width: 480px;
+    margin-left: 166px;
+  }
+  #mobile-menu {
+    width: 101%;
+  }
+  .rightSide svg {
   
+    margin-left: -148px;
+  
+}
+
+}
+@media only screen and (max-width: 486px) {
+
+  .heading h1 {
+    margin-left: 0;
+    font-size: 30px;
+  }
+}
