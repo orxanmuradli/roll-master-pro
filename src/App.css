@@ -67,7 +67,7 @@ body {
   }
   .rightSide {
     /* gap: 80px; */
-    padding-left: 40px;
+    /* padding-left: 40px; */
   }
   /* .navbar #desktop{
     margin-left: -40px;
@@ -85,8 +85,16 @@ body {
   .navbar {
     gap: 25%;
   }
+  .navbar #desktop{
+    gap: 20px !important;
+  }
 }
 
+@media only screen and (max-width: 1080px){
+  .navbar #desktop a{
+    font-size: 20px !important;
+  }
+} 
 @media only screen and (max-width: 992px) {
   .navbar a {
     font-size: 18px !important;
