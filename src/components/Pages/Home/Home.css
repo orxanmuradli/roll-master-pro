@@ -15,6 +15,7 @@
   background-size: cover;
   background-position: center;
   height: 688px;
+  border: 1px solid var(--color-text);
 }
 
 .kecid {
@@ -44,6 +45,7 @@
   padding-top: 180px;
   margin-left: 52px;
   width: 566px;
+
 }
 .headerContainer h1 {
   font-family: "Anton", sans-serif;
@@ -53,6 +55,7 @@
   color: #fff;
   font-style: Regular;
   font-weight: 400;
+
   /* color: #ffffff;
 
 font-size: 31px;
@@ -274,7 +277,7 @@ linear-gradient(0deg, #DE4320, #DE4320); */
     width: 480px;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 486px) {
   .social .right {
     display: none;
   }
@@ -288,8 +291,16 @@ linear-gradient(0deg, #DE4320, #DE4320); */
   }
   .heading h1 {
     width: 90%;
+    font-family: "Anton", sans-serif;
+    margin-left: 0;
+    font-size: 30px;
   }
   .headerContainer {
-    width: 100%;
+    /* width: 100%; */
+    width: 97%;
+  }
+  .headerContainer h1{
+    font-size: 24px;
+    font-family: "Anton", sans-serif;
   }
 }

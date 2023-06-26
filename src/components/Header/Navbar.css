@@ -45,6 +45,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 cursor: pointer;
+
 }
 
 .searching{
@@ -414,8 +415,11 @@ height:70px!important;
      .banner{
       width: 380px;
      }
-     .headerContainer{
+     /* .headerContainer{
       width: 100%;
       margin-left: 0;
-     }
+     } */
+
+
+   
   }
