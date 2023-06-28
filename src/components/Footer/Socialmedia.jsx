@@ -4,7 +4,7 @@ import Theme from "../Theme/Theme";
 
 const SocialMedia = () => {
   return (
-    <>
+    
       <div className="right">
         <a className="darkMode" target="_blank" rel="noreferrer">
           <div className="footer-bottom-up-el_div_icon">
@@ -67,7 +67,7 @@ const SocialMedia = () => {
           </div>
         </a>
       </div>
-    </>
+    
   );
 };
 

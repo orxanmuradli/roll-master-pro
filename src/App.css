@@ -129,9 +129,29 @@ body {
 }
 
 
+/* 
+@media only screen and (max-width: 700px) {
+  .headerContainer{
+    width: 350px !important;
 
-@media only screen and (max-width: 486px) {
+  }
 
- 
+  .headerContainer h1{
+    font-size: 24px !important;
+    font-family: "Anton", sans-serif;
+    margin-left: 11px;
+  }
+  
+} */
 
+@media only screen and (min-width: 370px) and ( max-width: 700px) {
+  .right {
+    display: none !important;
+  }
+  .cards{
+    width: 855px;
+}
+.left{
+  margin-left: 80px;
+}
 }

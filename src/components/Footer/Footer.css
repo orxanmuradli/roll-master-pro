@@ -100,15 +100,20 @@
   border-left: 1px solid;
 }
 
-@media only screen and (max-width: 486px) {
+@media only screen and (max-width: 700px) {
   .footer-top {
     display: none;
   }
   .footer-top-mobile {
     display: flex;
     border: 1px solid black;
-    width: 421px;
-    margin-left: 20px;
+    justify-content: space-evenly;
+  width: 340px;
+    margin-left: 10px;
+  }
+  .footer-bottom-up-el_div_icon {
+    position: relative;
+    right: 25px;
   }
   .face{
     padding: 35px;
@@ -117,10 +122,21 @@
     padding: 35px;
   }
   .wolt{
-    padding: 35px;
+    padding: 35px 20px 0px 10px;
+  }
+  .wolt div {
+    right: 0px !important;
   }
   .darkMode{
-    padding: 35px;
+    padding: 35px 20px 0px 30px;
+    border-left: 0px;
   }
-  
+  .footer-bottom {
+    display: grid;
+  }
+  .right-content {
+    margin-left: 15px;
+    width: 640px;
+  }
 }
+

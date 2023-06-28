@@ -142,13 +142,13 @@ const Footer = () => {
 
             </div>
             <div className="footer-bottom">
-        <div className="left-content">
-            <span>ROLL MASTER © 2023 BÜTÜN HÜQUQLAR QORUNUR</span>
-            </div>
             <div className='right-content'>
 
               
           <p>Created by </p> <span className='green'>Claradix</span>
+            </div>
+        <div className="left-content">
+            <span>ROLL MASTER © 2023 BÜTÜN HÜQUQLAR QORUNUR</span>
             </div>
         </div>
      </div>

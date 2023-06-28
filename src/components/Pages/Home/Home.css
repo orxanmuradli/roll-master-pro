@@ -281,13 +281,19 @@ linear-gradient(0deg, #DE4320, #DE4320); */
   .social .right {
     display: none;
   }
+  .lefting1 {
+    padding: 15px 1px 1px 1px;
+  }
+  .righting2 {
+    padding: 15px 1px 1px 1px;
+  }
   .social .left {
     width: 100%;
 
     margin-left: 0;
   }
   .social .left > div {
-    width: 45%;
+    width: 50%;
   }
   .heading h1 {
     width: 90%;
@@ -303,4 +309,43 @@ linear-gradient(0deg, #DE4320, #DE4320); */
     font-size: 24px;
     font-family: "Anton", sans-serif;
   }
+  
+  
 }
+
+
+
+@media only screen and (max-width: 700px){
+  .right-content {
+    border-bottom: 1px solid;
+    padding: 15px 0px 15px 0px;
+  }
+  .heading h1 {
+    width: 300px;
+  }
+  .headerContainer {
+    width: 87%;
+    font-size: 24px;
+    /* font-family: "Anton", sans-serif; */
+   
+    margin-left: 10px;
+  }
+  .headerContainer h1 {
+    font-size: 24px;
+    font-family: "Anton", sans-serif;
+    line-height: 36px;
+}
+/* .cards{
+  width: 855px;
+} */
+.left{
+  margin-left: 139px;
+}
+.lefting1 p{
+  margin-left: 0px;
+  
+}
+
+
+}
+
