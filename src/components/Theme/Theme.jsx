@@ -5,27 +5,41 @@ function Theme() {
     const [themes, setThemes] = useState('light')
 
     useEffect(() => {
+      // const instaIcon=document.querySelector(".insta-icon")
         let themes = localStorage.getItem("theme");
         if (themes === "dark") {
             document.body.classList.add("dark");
             setThemes("dark");
+            // instaIcon.classList.add(
+            //   'dark-icon'
+            // )
         } else {
             document.body.classList.remove("dark");
             localStorage.setItem("theme", "light")
             setThemes("light");
+            // instaIcon.classList.remove(
+            //   'dark-icon'
+            // )
         }
     }, [])
 
     function changeTheme() {
         let themes = localStorage.getItem("theme")
+        // const instaIcon=document.querySelector(".insta-icon")
         if (themes === "light") {
             localStorage.setItem("theme", "dark")
             document.body.classList.add("dark")
             setThemes("dark")
+            // instaIcon.classList.add(
+            //   'dark-icon'
+            // )
         } else {
             localStorage.setItem("theme", "light")
             document.body.classList.remove("dark")
             setThemes("light")
+            // instaIcon.classList.remove(
+            //   'dark-icon'
+            // )
 
         }
 

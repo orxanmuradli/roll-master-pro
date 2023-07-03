@@ -22,6 +22,7 @@
   transition: 0.2s;
 }
 .search.active{
+    position: absolute!important;
     opacity: 1;
     visibility: visible;
   transform: translate(0%,-50%);
@@ -148,7 +149,18 @@ width: 18px;
     align-items: center;
     justify-content: space-between;
     /* gap 30 px dan 50 px qalxdi */
-    /* gap: 50px; */
+    gap: 50px;
     margin-left: -44px;
 }
-
+/* .light-mode-icon{
+    display:  none!important;
+}
+.dark-mode-icon{
+    display: inherit!important;
+}
+.dark-icon .light-mode-icon{
+    display: inherit!important;
+    }
+    .dark-icon .dark-mode-icon{
+      display: none!important;
+      } */
