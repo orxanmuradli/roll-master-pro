@@ -86,6 +86,7 @@ width: 566px; */
   justify-content: space-between;
   /* border: 1px solid var(--color-text); */
   border: 1px solid var(--color-text);
+
 }
 
 .darkmood svg {
@@ -158,10 +159,12 @@ width: 566px; */
 .insta {
   padding: 25px;
   border-right: 1px solid var(--color-text);
+  
 }
 
 .insta svg:hover path {
   fill: #de4320;
+  
 }
 .darkMode {
   padding: 25px;
@@ -173,6 +176,7 @@ width: 566px; */
 }
 .face {
   padding: 25px;
+  
   border-right: 1px solid var(--color-text);
 }
 .face svg:hover path {
@@ -277,75 +281,7 @@ linear-gradient(0deg, #DE4320, #DE4320); */
     width: 480px;
   }
 }
-@media only screen and (max-width: 486px) {
-  .social .right {
-    display: none;
-  }
-  .lefting1 {
-    padding: 15px 1px 1px 1px;
-  }
-  .righting2 {
-    padding: 15px 1px 1px 1px;
-  }
-  .social .left {
-    width: 100%;
-
-    margin-left: 0;
-  }
-  .social .left > div {
-    width: 50%;
-  }
-  .heading h1 {
-    width: 90%;
-    font-family: "Anton", sans-serif;
-    margin-left: 0;
-    font-size: 30px;
-  }
-  .headerContainer {
-    /* width: 100%; */
-    width: 97%;
-  }
-  .headerContainer h1{
-    font-size: 24px;
-    font-family: "Anton", sans-serif;
-  }
-  
-  
-}
 
 
 
-@media only screen and (max-width: 700px){
-  .right-content {
-    border-bottom: 1px solid;
-    padding: 15px 0px 15px 0px;
-  }
-  .heading h1 {
-    width: 300px;
-  }
-  .headerContainer {
-    width: 87%;
-    font-size: 24px;
-    /* font-family: "Anton", sans-serif; */
-   
-    margin-left: 10px;
-  }
-  .headerContainer h1 {
-    font-size: 24px;
-    font-family: "Anton", sans-serif;
-    line-height: 36px;
-}
-/* .cards{
-  width: 855px;
-} */
-.left{
-  margin-left: 139px;
-}
-.lefting1 p{
-  margin-left: 0px;
-  
-}
-
-
-}
 

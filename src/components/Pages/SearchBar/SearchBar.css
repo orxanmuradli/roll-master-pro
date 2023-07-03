@@ -135,8 +135,8 @@ a{
 .rightSide a:hover{
     background-color: lightgray;
 } */
-.searchIcon svg:hover{
-    stroke: #DE4320;
+.searchIcon svg:hover path{
+    fill: #DE4320;
     
 }
 #clearBtn{
@@ -148,6 +148,7 @@ width: 18px;
     align-items: center;
     justify-content: space-between;
     /* gap 30 px dan 50 px qalxdi */
-    gap: 50px;
+    /* gap: 50px; */
     margin-left: -44px;
 }
+

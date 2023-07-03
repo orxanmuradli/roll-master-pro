@@ -5,6 +5,7 @@
     gap: 28px;
     justify-content: space-between;
     text-align: center;
+    color: var(--color-text);
    
 }
 

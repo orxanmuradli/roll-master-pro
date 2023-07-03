@@ -19,8 +19,9 @@
   /* --popular-bg-color:blue; */
   --menu-bg-color: #201f22;
   --header-bg-color: #fff;
-  --social-bg-color: #201F22;
+  --social-color: #201F22;
   --popular-bg-color: white;
+  --icons-text-color: white;
 }
 /* // dark renkler burda yazilmalidi */
 
@@ -38,6 +39,8 @@
   --header-bg-color: #201F22;
   --social-bg-color: #BDBDC8;
   --popular-bg-color: #201F22;
+  --icons-text-color: black;
+  
 }
 html {
   overflow-x: hidden;
@@ -124,7 +127,19 @@ body {
   
     margin-left: -148px;
   
+} 
+ .bar {
+  background-color: #000000;
 }
+.bars::before {
+  background-color: #000000;
+}
+
+.bars::after{
+  background-color: #000000;
+}
+
+
 
 }
 
@@ -144,7 +159,7 @@ body {
   
 } */
 
-@media only screen and (min-width: 370px) and ( max-width: 700px) {
+/* @media only screen and (min-width: 370px) and ( max-width: 700px) {
   .right {
     display: none !important;
   }
@@ -154,4 +169,190 @@ body {
 .left{
   margin-left: 80px;
 }
+} */
+
+
+/* @media only screen and (max-width: 486px){
+  #desktop{
+    display: none !important;
+   }
+   #showw{
+     display: block;
+   } */
+   
+   .righting2 a {
+     /* display: flex; */
+     /* font-size: 20px; */
+   }
+ 
+   .lefting1 p {
+     font-size: 19px;
+   }
+   .bars {
+     width: 40px;
+     height: 30px;
+     position: absolute;
+     top: 58%;
+     transform: translateY(-50%);
+     right: 16px;
+     cursor: pointer;
+     overflow: hidden;
+   }
+   
+   .rightSide{
+     padding-top: 20px;
+     display: flex;
+     justify-content: center;
+    gap: 40px;
+    width: 60%;
+
+    
+   }
+   .rightSide svg {
+    /* margin-top: 15px; */
+    /* margin-left: 120px; */
 }
+   
+   #showw input {
+     display: none!important;
+   }
+   .searchinputs{
+     width: 100%!important;
+     height: 100px;
+  
+   }
+   .searchinputs::after {
+ width:100%!important;
+ bottom: 15%!important;
+   }
+   .dataResult .dataItem {
+ height:70px!important;
+   }
+   .bars::before {
+     content: "";
+     width: 100%;
+     height: 5px;
+     background-color: #000;
+     position: absolute;
+     left: 0;
+     top: 50%;
+     transform: translateY(-50%);
+     transition: 0.4s;
+   }
+   .bars::after {
+     content: "";
+     width: 100%;
+     height: 5px;
+     background-color: #000;
+     position: absolute;
+     left: 0;
+     top: 100%;
+     transform: translateY(-100%);
+     transition: 0.4s;
+   }
+   .bar {
+     width: 100%;
+     height: 5px;
+     background-color: #000;
+     transition: 0.4s;
+     position: absolute;
+     top: 0;
+     left: 0;
+   }
+   input:checked + label::before {
+     transform: translate(-100%, -50%);
+   }
+   input:checked + label .bar {
+     transform: rotate(45deg) scale(0.8);
+     top: 50%;
+   }
+   input:checked + label::after {
+     transform: rotate(-45deg) scale(0.8);
+     top: 50%;
+   }
+   #mobile-menu {
+     width: 100%;
+     position: absolute;
+     top: 100%;
+     left: 50%;
+     background-color: #fff;
+     transform: scaleY(0) translateX(-50%);
+     transform-origin: top;
+     transition: 0.4s;
+   }
+   #mobile-menu a {
+     color: #000;
+     padding: 15px;
+     display: block;
+   }
+   #mobile-menu a:hover {
+     background-color: #fafafa;
+   }
+   input:checked + label + #mobile-menu {
+     transform: scaleY(1) translateX(-50%);
+   }
+   .container{
+    /* max-width: 100%; */
+   }
+   .righting2 a{
+    display: flex;
+   }
+
+   .set-search{
+    margin-left: 24.87px;
+   }
+   .rightSide{
+    width: 0%;
+   }
+   .banner{
+    width: 380px;
+   }
+
+
+ 
+}
+
+@media only screen and (max-width: 486px) {
+  .social .right {
+    display: none;
+  }
+  .lefting1 {
+    /* padding: 15px 1px 1px 1px; */
+  }
+  .righting2 {
+    /* padding: 15px 1px 1px 1px; */
+  }
+  .social .left {
+    width: 100%;
+
+    margin-left: 0;
+  }
+  .social .left > div {
+    width: 50%;
+  }
+  .heading h1 {
+    width: 90%;
+    font-family: "Anton", sans-serif;
+    margin-left: 0;
+    font-size: 30px;
+  }
+  .headerContainer {
+    /* width: 100%; */
+    width: 97%;
+  }
+  .headerContainer h1{
+    font-size: 24px;
+    font-family: "Anton", sans-serif;
+  }
+  
+
+   
+  
+}
+
+
+  
+  
+  
+
+
