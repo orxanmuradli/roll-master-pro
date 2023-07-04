@@ -161,8 +161,15 @@ width: 566px; */
   border-right: 1px solid var(--color-text);
 }
 
+.insta svg {
+}
+
 .insta svg:hover path {
   fill: #de4320;
+}
+
+.dark-mode-icon path{
+  fill:var( --color-text);
 }
 .darkMode {
   padding: 25px;

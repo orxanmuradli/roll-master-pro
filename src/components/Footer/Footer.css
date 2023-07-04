@@ -19,7 +19,14 @@
   font-family: "Anton", sans-serif;
 }
 
+
+.left-content svg  path{
+  fill: var(--color-text);
+}
+  
+
 .left-content svg:hover path {
+  
   fill: #de4320;
 }
 .footer-top-mobile {

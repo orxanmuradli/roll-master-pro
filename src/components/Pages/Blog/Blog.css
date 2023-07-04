@@ -45,6 +45,7 @@
     gap: 20px;
     position: relative;
     top: 20px;
+    color: var(--color-text);
 }
 
 /* @media only screen and (min-width: 370px) and ( max-width: 700px){

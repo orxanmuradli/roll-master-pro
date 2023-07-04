@@ -105,6 +105,10 @@ font-size: 40px;
 width: 18px;
 
 }
+
+.rightSide svg path{
+  fill:var(--color-text)
+}
 #showw{
   display: none;
 }
