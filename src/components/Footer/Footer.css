@@ -91,9 +91,10 @@
 .right-content p {
   font-family: "Anton", sans-serif;
   font-size: 20px;
-  font-weight: 700;
+  /* font-weight: 700; */
   line-height: 30.11px;
   color: #201f22;
+  color: var(--claradix-bg-color);
 }
 
 .right-content span {

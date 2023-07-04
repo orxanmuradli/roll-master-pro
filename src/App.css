@@ -21,6 +21,7 @@
   --header-bg-color: #fff;
   --social-bg-color: #201F22;
   --popular-bg-color: white;
+  --claradix-bg-color:black; 
 }
 /* // dark renkler burda yazilmalidi */
 
@@ -38,6 +39,7 @@
   --header-bg-color: #201F22;
   --social-bg-color: #BDBDC8;
   --popular-bg-color: #201F22;
+  --claradix-bg-color: white;
 }
 html {
   overflow-x: hidden;
