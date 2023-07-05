@@ -217,6 +217,19 @@
   .footer-top-mobile {
     display: none;
   }
- 
+
   
+}
+
+@media (max-width:768px){
+  .footer-content .container{
+    max-width: 100%;
+    margin: 0;
+   }
+   .footer-content .darkMode{
+    border-left: 0;
+   }
+   .footer-top{
+    border-top: 0;
+   }
 }

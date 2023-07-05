@@ -202,7 +202,7 @@ width: 566px; */
 .header_link {
   font-family: "Anton", sans-serif;
   font-size: 20px;
-  width: 240px !important;
+  display: inline-block;
 }
 
 .header_link :hover {
@@ -232,9 +232,7 @@ width: 566px; */
   margin-left: 13px;
 }
 
-.header_link a {
-  margin-right: 10px;
-}
+
 .heading {
   padding: 140px 0 160px 250px;
 }

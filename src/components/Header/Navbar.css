@@ -474,3 +474,20 @@ height:70px!important;
 
    
   }
+
+  @media (max-width:375px) {
+    #mobile-menu{
+      height: 812px !important;
+    }
+    .social__icons{
+      position: absolute;
+      width: 100%;
+      bottom: 5%;
+    }
+    .social__icons .right{
+      display: flex !important;
+    }
+    .social__icons .right a{
+      width: 25%;
+    }
+  }

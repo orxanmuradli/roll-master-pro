@@ -4,6 +4,7 @@ import "./Navbar.css";
 import SearchBar from "../Pages/SearchBar/SearchBar";
 import BookData from "../../data/search-data.json";
 import React, { useState } from "react";
+import SocialMedia from "../Footer/Socialmedia";
 
 const Header = () => {
   const [search, setSearch] = useState(false);
@@ -54,6 +55,7 @@ const Header = () => {
           <li><Link to="/BLOQ">BLOQ</Link></li>
            <li> <Link to="/ƏLAQƏ">ƏLAQƏ</Link></li>
          </ul>
+        
  </div>
 
       <div id="showw">
@@ -78,7 +80,11 @@ const Header = () => {
               <li>
                 <Link href="#">ƏLAQƏ</Link>
               </li>
+              {/* <div className="social__icons">
+         <SocialMedia />
+         </div> */}
          </ul>
+       
           </div>
           <SearchBar
             className={search ? "active" : ""}
