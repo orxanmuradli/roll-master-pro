@@ -8,10 +8,15 @@ import BookData from "../src/data/search-data.json"
 // import PopularPage from "./components/Pages/Home/PopularPage/PopularPage";
 import Footer from "./components/Footer/Footer";
 // import Menu from "./components/Pages/Menu/Menu";
-import React from "react";
+import React, { useEffect } from "react";
 // import Menu from './components/Pages/Menu/Menu';
+import useDarkMode from "./hooks/useDarkMode";
 function App() {
-  console.log('test test')
+  const {theme} = useDarkMode();
+ useEffect(() => {
+  console.log(theme)
+ }, [theme])
+
   return (
     <div className="App">
       {/* <Router>

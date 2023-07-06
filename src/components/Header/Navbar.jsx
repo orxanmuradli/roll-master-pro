@@ -3,11 +3,13 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 import SearchBar from "../Pages/SearchBar/SearchBar";
 import BookData from "../../data/search-data.json";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import SocialMedia from "../Footer/Socialmedia";
+
 
 const Header = () => {
   const [search, setSearch] = useState(false);
+
   return (
     <div className="container navs">
       <div

@@ -1,8 +1,11 @@
 import React, { useEffect, useState } from "react";
+import useDarkMode from "../../hooks/useDarkMode";
 
 function Theme() {
 
     const [themes, setThemes] = useState('light')
+    const {toggleTheme} = useDarkMode()
+  
 
     useEffect(() => {
       // const instaIcon=document.querySelector(".insta-icon")
@@ -24,6 +27,7 @@ function Theme() {
     }, [])
 
     function changeTheme() {
+      // toggleTheme()
         let themes = localStorage.getItem("theme")
         // const instaIcon=document.querySelector(".insta-icon")
         if (themes === "light") {

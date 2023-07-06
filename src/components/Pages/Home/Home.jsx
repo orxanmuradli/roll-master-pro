@@ -12,8 +12,8 @@ function Home() {
         <div className="home">
           <div className="headerContainer">
             <h1>
-              Lorem ipsum dolor sit amet consectetur. Egestas quis suscipit leo
-              elementum amet.
+              Lorem ipsum dolor sit amet consectetur. <span className="hide"> Egestas quis suscipit leo
+              elementum amet.</span>
             </h1>
             {/* <div className="kecid">
             <button> MENYUYA KEÇİD ET </button>

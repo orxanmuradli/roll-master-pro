@@ -76,7 +76,7 @@ cursor: pointer;
 .navbar #desktop{
   display: flex;
   gap:35px;
-  
+ 
 }
 
  .navbar #desktop a:hover{
@@ -148,6 +148,7 @@ width: 18px;
     right: 0px;
     cursor: pointer;
     overflow: hidden;
+ 
   }
   
   .rightSide{
@@ -171,7 +172,7 @@ width: 18px;
     
   }
   .searchinputs::after {
-width:92%!important;
+width: 98% !important;;
 bottom: 15%!important;
 
   }
@@ -182,32 +183,38 @@ height:70px!important;
     content: "";
     width: 100%;
     height: 2.5px;
-    background-color: #000;
+    /* background-color: #000; */
     position: absolute;
     left: 0;
     top: 50%;
     transform: translateY(-50%);
     transition: 0.4s;
+    background: var(--social-bg-color);
+
   }
   .bars::after {
     content: "";
     width: 100%;
     height: 2.5px;
-    background-color: #000;
+    /* background-color: #000; */
     position: absolute;
     left: 0;
     top: 100%;
     transform: translateY(-100%);
     transition: 0.4s;
+    background: var(--social-bg-color);
+
   }
   .bar {
     width: 100%;
     height: 2.5px;
-    background-color: #000;
+    /* background-color: #000; */
     transition: 0.4s;
     position: absolute;
     top: 0;
     left: 0;
+    background: var(--social-bg-color);
+
   }
   input:checked + label::before {
     transform: translate(-100%, -50%);
@@ -272,6 +279,7 @@ height:70px!important;
      }
 .bars{
   top: 58%;
+ 
 }
 /* .rightSide svg {
   margin-top: 15px;
@@ -280,7 +288,7 @@ height:70px!important;
 } */
 
 .searchinputs::after {
-  width:90% !important;
+  width: 98% !important;;
   
     }
 .social {
@@ -340,7 +348,7 @@ height:70px!important;
        position: absolute;
        top: 58%;
        transform: translateY(-50%);
-       right: 16px;
+       /* right: 16px; */
        cursor: pointer;
        overflow: hidden;
      }
@@ -390,7 +398,8 @@ height:70px!important;
        content: "";
        width: 100%;
        height: 2.5px;
-       background-color: #000;
+       background: var(--social-bg-color);
+
        position: absolute;
        left: 0;
        top: 50%;
@@ -401,7 +410,8 @@ height:70px!important;
        content: "";
        width: 100%;
        height: 2.5px;
-       background-color: #000;
+       background: var(--social-bg-color);
+
        position: absolute;
        left: 0;
        top: 100%;
@@ -411,7 +421,8 @@ height:70px!important;
      .bar {
        width: 100%;
        height: 2.5px;
-       background-color: #000;
+       background: var(--social-bg-color);
+
        transition: 0.4s;
        position: absolute;
        top: 0;
