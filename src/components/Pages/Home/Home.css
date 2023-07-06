@@ -395,4 +395,8 @@ linear-gradient(0deg, #DE4320, #DE4320); */
     .hide{
       display: none;
     }
+    .heading {
+      padding:100px 0;
+      text-align: center;
+    }
 }
