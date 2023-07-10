@@ -14,7 +14,7 @@
 .left-content {
   display: flex;
   position: relative;
-  padding: 15px;
+  padding: 15px 1px;
   gap: 18px;
   font-family: "Anton", sans-serif;
 }

@@ -5,7 +5,7 @@ import Menu from "../Menu/Menu";
 import Blog from "../Blog/Blog";
 
 import SocialMedia from "../../Footer/Socialmedia";
-function Home() {
+function Home({mode,setMode}) {
   return (
     <section className="banner">
       <div className="container">
@@ -72,7 +72,7 @@ function Home() {
           </div>
 
           <div className="right">
-            <SocialMedia />
+            <SocialMedia setMode={setMode} mode={mode} />
           </div>
         </div>
       </div>

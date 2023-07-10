@@ -2,13 +2,13 @@ import wolt from "../../assets/wolt.png";
 import darkmood from "../../assets/darkmood.png";
 import Theme from "../Theme/Theme";
 
-const SocialMedia = () => {
+const SocialMedia = ({setMode,mode}) => {
   return (
     
       <div className="right">
         <a className="darkMode" target="_blank" rel="noreferrer">
           <div className="footer-bottom-up-el_div_icon">
-            <Theme />
+            <Theme setMode={setMode} mode={mode} />
             {/* <img src={darkmood} alt="" /> */}
           </div>
         </a>
