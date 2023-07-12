@@ -144,7 +144,7 @@ body {
   }
 
   .rightSide {
-    padding-top: 31px;
+    /* padding-top: 31px; */
     display: flex;
     justify-content: center;
     gap: 20px !important;
@@ -235,7 +235,7 @@ body {
     transform: scaleY(1) translateX(-50%);
   }
   .set-search {
-    margin-left: 330px;
+    /* margin-left: 330px; */
   }
 
   .search.active {
@@ -249,10 +249,7 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-  .set-search {
-    margin-left: 24.87px;
-    margin-top: 0px !important;
-  }
+
   .headerContainer {
     width: 566px;
     padding-top: 180px;
@@ -287,7 +284,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 20px !important;
-    width: 30%;
+    /* width: 30%; */
   }
 }
 
@@ -324,6 +321,7 @@ body {
     overflow: hidden;
   }
 
+
   .rightSide {
     padding-top: 20px;
     display: flex;
@@ -342,10 +340,7 @@ body {
     border-left: 0px;
   }
 
-  .rightSide svg {
-    /* margin-top: 15px; */
-    /* margin-left: 120px; */
-  }
+ 
 
   #showw input {
     display: none !important;
@@ -435,11 +430,11 @@ body {
   }
 
   .set-search {
-    margin-left: 24.87px;
+    /* margin-left: 24.87px; */
   }
   .rightSide {
-    width: 0%;
-    gap: 20px;
+    width: 15%;
+    /* gap: 20px; */
   }
   .banner {
     width: 380px;
@@ -505,11 +500,11 @@ body {
 .mobile__menu__footer a:first-of-type {
   border-left: 0;
 }
-@media screen and (max-whdth: 768px) {
+/* @media screen and (max-width: 768px) {
   .container.max-width {
-    max-width: 100% !important;
+    max-width: 100% !important; 
   }
-}
+} */
 
 /* 
 @media only screen and (max-width: 850px){

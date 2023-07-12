@@ -27,7 +27,7 @@ const Header = ({ mode }) => {
         <div className="rightSide" id="rightSide">
           {/* <Link to="/"></Link> */}
 
-          <div style={{ display: "flex", gap: "34.8px" }}>
+          <div style={{ display: "flex",gap: "25px"}}>
             <div className="set-search">
               <svg
                 onClick={() => setSearch(true)}
