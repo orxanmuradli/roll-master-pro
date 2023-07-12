@@ -32,7 +32,7 @@ body {
   display: flex;
   /* align-items: center;
   justify-content: center; */
-  gap: 40px;
+  gap: 20px !important;
   width: 60%;
   justify-content: flex-end;
   /* padding-bottom: 8px; */
@@ -96,8 +96,8 @@ body {
 
 .rightSide svg {
   /* font-size: 40px; */
-  width: 23.65px;
-  height: 23.65px;
+  width: 24px;
+  height: 24px;
 }
 
 .rightSide svg path {
@@ -130,11 +130,11 @@ body {
     font-size: 19px;
   }
   .bars {
-    width: 40px;
-    height: 30px;
+    width: 24px;
+    height: 24px;
     position: absolute;
-    top: 50%;
-    margin-right: 10px;
+    top: 58%;
+    /* margin-right: 10px; */
     transform: translateY(-50%);
     right: 0px;
     cursor: pointer;
@@ -142,11 +142,11 @@ body {
   }
 
   .rightSide {
-    padding-top: 20px;
+    padding-top: 31px;
     display: flex;
     justify-content: center;
-    gap: 20px;
-    width: 51%;
+    gap: 20px !important;
+    width: 15%;
   }
 
   #showw input {
@@ -284,8 +284,8 @@ body {
     padding-top: 20px;
     display: flex;
     justify-content: center;
-    gap: 20px;
-    width: 32%;
+    gap: 20px !important;
+    width: 30%;
   }
 }
 
@@ -326,7 +326,7 @@ body {
     padding-top: 20px;
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 20px !important;
     width: 60%;
   }
   .footer-top-mobile {
@@ -437,6 +437,7 @@ body {
   }
   .rightSide {
     width: 0%;
+    gap: 20px;
   }
   .banner {
     width: 380px;
@@ -488,6 +489,7 @@ body {
   bottom: 30px;
   left: 0;
   width: 100%;
+  margin-top: 83px;
 }
 .mobile__menu__footer a {
   padding: 16px 24px;
@@ -506,3 +508,14 @@ body {
     max-width: 100% !important;
   }
 }
+
+/* 
+@media only screen and (max-width: 850px){
+  .rightSide {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px!important;
+    width: 60%;
+  }
+} */

@@ -22,12 +22,14 @@ function SearchBar({ placoholder, data, className, setSearch, mode }) {
   };
   const clearInput = () => {
     setFilteredData([]);
+    // eslint-disable-next-line no-unused-expressions
+
     setWordEntered("");
   };
   return (
     <div className={`search ${className}`}>
       {/* <img src={Logo} /> searhdaki logo  baglandi */}
-      <div className="searchinputs">
+      <div className="searchinputs" id="searchinputs">
         <input
           type="text"
           placeholder={placoholder}
