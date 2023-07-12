@@ -99,7 +99,7 @@ cursor: pointer;
 .dataResult{
 /* margin-top: 5px; */
 /* width: 300px; */
-/* height: 200px; */
+/* height: 316px; */
 background-color: var(--search-bg-color);
 /* box-shadow: rgba(0, 0, 0, 0.35 ) 0px 5px 15px; */
 overflow: hidden;
@@ -116,7 +116,8 @@ width: 100%;
 }
 
 .dataResult .dataItem{
-    width: 100%;
+    width: 105%;
+
     height: 50px;
     display: flex;
     align-items: center;
@@ -148,6 +149,8 @@ cursor: pointer;
 width: 19.56px;
 height: 19.56px;
 color: #BDBDC8;
+/* background: #BDBDC8; */
+
 
 
 }

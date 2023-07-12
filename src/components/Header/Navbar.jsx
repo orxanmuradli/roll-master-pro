@@ -25,7 +25,7 @@ const Header = ({ mode }) => {
         </div>
 
         <div className="rightSide" id="rightSide">
-          <Link to="/"></Link>
+          {/* <Link to="/"></Link> */}
 
           <div style={{ display: "flex", gap: "34.8px" }}>
             <div className="set-search">

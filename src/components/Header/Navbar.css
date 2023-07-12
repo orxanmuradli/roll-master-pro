@@ -102,6 +102,8 @@ body {
 
 .rightSide svg path {
   fill: var(--color-text);
+  color: #BDBDC8;
+
 }
 #showw {
   display: none;
