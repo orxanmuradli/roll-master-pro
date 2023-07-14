@@ -27,7 +27,7 @@ const Header = ({ mode }) => {
         <div className="rightSide" id="rightSide">
           {/* <Link to="/"></Link> */}
 
-          <div style={{ display: "flex",gap: "25px"}}>
+          <div style={{ display: "flex", gap: "25px" }}>
             <div className="set-search">
               <svg
                 onClick={() => setSearch(true)}
@@ -73,27 +73,30 @@ const Header = ({ mode }) => {
               <div class="bar"></div>
             </label>
             <ul id="mobile-menu">
-              <li>
-                <Link href="#">MENYU</Link>
-              </li>
-              <li>
-                <Link href="#">KAMPANİYALAR</Link>
-              </li>
-              <li>
-                <Link href="#">HAQQIMIZDA</Link>
-              </li>
-              <li>
-                <Link href="#">BLOQ</Link>
-              </li>
-              <li>
-                <Link href="#">ƏLAQƏ</Link>
-              </li>
+              <div style={{ paddingTop: "25px" }}>
+                <li>
+                  <Link href="#">MENYU</Link>
+                </li>
+                <li>
+                  <Link href="#">KAMPANİYALAR</Link>
+                </li>
+                <li>
+                  <Link href="#">HAQQIMIZDA</Link>
+                </li>
+                <li>
+                  <Link href="#">BLOQ</Link>
+                </li>
+                <li>
+                  <Link href="#">ƏLAQƏ</Link>
+                </li>
+              </div>
               {/* <div className="social__icons">
          <SocialMedia />
          </div> */}
               <div className="mobile__menu__footer">
                 <a href="#">
                   <svg
+                  id='navbarSvg'
                     width="27"
                     height="30"
                     viewBox="0 0 27 30"

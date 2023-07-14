@@ -351,7 +351,6 @@ linear-gradient(0deg, #DE4320, #DE4320); */
     padding: 15px 0px 15px 0px;
   }
   .heading h1 {
-   
     font-size: 36px;
     line-height: 40px;
     margin: 0;
@@ -382,24 +381,13 @@ linear-gradient(0deg, #DE4320, #DE4320); */
   }
 }
 
-
-
-
 @media only screen and (max-width: 575px) {
-  
-
-
-
-  .heading h1{
-
+  .heading h1 {
     font-size: 24px;
     line-height: 36px;
     margin: 0;
   }
 }
-
-
-
 
 @media only screen and (max-width: 370px) {
   .home {
@@ -425,10 +413,6 @@ linear-gradient(0deg, #DE4320, #DE4320); */
   }
 }
 
-
-
-
-
 @media only screen and (max-width: 300px) {
   .home {
     background-image: url("../../../assets/Rectangle\ 13.svg");
@@ -453,8 +437,7 @@ linear-gradient(0deg, #DE4320, #DE4320); */
     text-align: center;
   }
 
-  .heading h1{
-
+  .heading h1 {
     font-size: 20px;
     line-height: 36px;
     margin: 0;
