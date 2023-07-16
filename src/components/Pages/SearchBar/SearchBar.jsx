@@ -69,6 +69,7 @@ function SearchBar({ placoholder, data, className, setSearch, mode }) {
           </div>
         </div>
       </div>
+      {console.log(filteredData)}
       {filteredData.length !== 0 && (
         // <div className="Result"></div>
 
@@ -79,12 +80,7 @@ function SearchBar({ placoholder, data, className, setSearch, mode }) {
               //  return console.log(value.title)
               <a className="dataItem" href={value.link}>
                 <p>
-                  <span style={{ color: +mode ? "#fff" : "#201F22" }}>
-                    {value.title.split(" ")[0]}
-                  </span>{" "}
-                  <span style={{ color: "#BDBDC8" }}>
-                    {value.title.split(" ").slice(1).join(" ")}
-                  </span>
+                  <span style={{color:+mode?"#fff":"#201F22"}}>{value.title.slice(0,wordeEntered.length)}</span><span style={{color:"#BDBDC8"}}>{value.title.slice(wordeEntered.length)}</span>
                 </p>
               </a>
             )
