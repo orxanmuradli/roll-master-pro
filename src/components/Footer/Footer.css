@@ -187,8 +187,8 @@
     display: grid;
   }
   .right-content {
-    margin-left: 15px;
-    width: 640px;
+    /* margin-left: 15px; */
+    width: 682px;
   }
   .righting2{
     display: flex;

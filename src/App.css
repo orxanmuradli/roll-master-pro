@@ -120,6 +120,9 @@ body {
   .navbar a {
     font-size: 24px !important;
   }
+
+
+  
   .set-search {
     /* margin-left: 330px; */
     /* margin-top: -15px; */
@@ -127,6 +130,12 @@ body {
   .heading h1 {
     width: 480px;
     margin-left: 166px;
+  }
+
+  .rightSide svg {
+    /* font-size: 40px; */
+    width: 20.27px;
+    height: 20.27px;
   }
   #mobile-menu {
     width: 101%;

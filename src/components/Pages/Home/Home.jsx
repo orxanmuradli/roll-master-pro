@@ -3,6 +3,7 @@ import React from "react";
 import PopularPage from "./PopularPage/PopularPage";
 import Menu from "../Menu/Menu";
 import Blog from "../Blog/Blog";
+import Campaigns from "../Campaigns/Campaigns";
 
 import SocialMedia from "../../Footer/Socialmedia";
 function Home({mode,setMode}) {
@@ -84,6 +85,7 @@ function Home({mode,setMode}) {
           </h1>
         </div>
       </section>
+      <Campaigns/>
       <PopularPage />
       <Menu />
       <Blog />
