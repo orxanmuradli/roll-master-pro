@@ -4,6 +4,7 @@ import PopularPage from "./PopularPage/PopularPage";
 import Menu from "../Menu/Menu";
 import Blog from "../Blog/Blog";
 import Campaigns from "../Campaigns/Campaigns";
+import rarrow from "../../../assets/right_arrow.svg";
 
 import SocialMedia from "../../Footer/Socialmedia";
 function Home({mode,setMode}) {
@@ -38,18 +39,7 @@ function Home({mode,setMode}) {
             <div className="header_link">
               <a className="link_rectangle" href="#">
                 MENYUYA KEÇİD ET
-                <svg
-                  width="21.33"
-                  height="16"
-                  viewBox="0 0 22 16"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M13.6668 16L11.8002 14.0667L16.5335 9.33333H0.333496V6.66667H16.5335L11.8002 1.93333L13.6668 0L21.6668 8L13.6668 16Z"
-                    fill="white"
-                  />
-                </svg>
+              <img src={rarrow} alt="" />
               </a>
               {/* <img className="arrow-icons" src={arrow} alt="" /> */}
             </div>

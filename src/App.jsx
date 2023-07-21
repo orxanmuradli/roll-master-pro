@@ -11,13 +11,14 @@ import Footer from "./components/Footer/Footer";
 import React, { useEffect, useState } from "react";
 // import Menu from './components/Pages/Menu/Menu';
 function App() {
-  let oldMode = localStorage.getItem("theme");//sehifde acilan kimi localstorage baxiram ki nsese var ya yox
+  let oldMode = localStorage.getItem("theme"); //sehifde acilan kimi localstorage baxiram ki nsese var ya yox
   if (!oldMode) {
-    localStorage.setItem("theme", 0);//yoxdursa ozum 0 atiram ora. 0 bizde ag moddu
+    localStorage.setItem("theme", 0); //yoxdursa ozum 0 atiram ora. 0 bizde ag moddu
     oldMode = 0;
   }
-  if(+oldMode===1){//yox eger varsa ve 1 dise demweli dark mode dur
-    document.body.classList.add("dark")
+  if (+oldMode === 1) {
+    //yox eger varsa ve 1 dise demweli dark mode dur
+    document.body.classList.add("dark");
   }
   const [mode, setMode] = useState(oldMode);
   return (
@@ -39,7 +40,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home mode={mode} setMode={setMode} />} />
       </Routes>
-      <Footer />
+      <Footer setMode={setMode} mode={mode} />
     </div>
   );
 }

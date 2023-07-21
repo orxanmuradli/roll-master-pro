@@ -191,6 +191,12 @@ body {
   .cards{
     width: 855px;
 }
+
+.leftSide img {
+  width: 80px;
+  height: 40px;
+}
+
 .left{
   margin-left: 80px;
 }

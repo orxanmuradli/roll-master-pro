@@ -159,8 +159,6 @@ width: 566px; */
   border-right: 1px solid var(--color-text);
 }
 
-
-
 .insta svg:hover path {
   fill: #de4320;
 }
@@ -206,12 +204,18 @@ width: 566px; */
   background-color: #ffffff;
   color: black;
 }
-.header_link:hover svg {
+.header_link:hover svg path {
   transition: 0.3s;
+}
+.header_link img{
+  margin-left: 18px;
+  transition: 0.3s;
+}
+.header_link:hover img{
+  filter: brightness(0%);
 }
 .header_link:hover svg path {
   fill: #201f22;
-  transition: 0.3s;
 }
 .header_link a {
   color: #ffffff;
@@ -219,7 +223,7 @@ width: 566px; */
 }
 
 .header_link svg {
-  padding-left: 18px;
+  margin-left: 18px;
   transition: 0.3s;
 }
 

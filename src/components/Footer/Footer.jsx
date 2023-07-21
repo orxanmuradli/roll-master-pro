@@ -7,7 +7,7 @@ import Theme from "../Theme/Theme";
 import wolt from '../../assets/wolt.png';
 
 
-const Footer = () => {
+const Footer = ({setMode,mode}) => {
   return (
     <div className="footer-content">
      <div className="container">
@@ -15,7 +15,7 @@ const Footer = () => {
    
         <a className="darkMode" target="_blank" rel="noreferrer">
           <div className="footer-bottom-up-el_div_icon">
-            <Theme />
+            <Theme setMode={setMode} mode={mode} />
             {/* <img src={darkmood} alt="" /> */}
           </div>
         </a>
