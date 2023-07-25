@@ -22,10 +22,10 @@
   width: 40%;
 }
 
-.leftSide img {
+/* .leftSide img {
   width: 156px !important;
   height: 74px !important;
-}
+} */
 
 body {
   background-color: var(--body-bg-color);
@@ -152,7 +152,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 20px !important;
-    width: 15%;
+    width: 20%;
   }
 
   #showw input {
@@ -287,7 +287,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 20px !important;
-    width: 30%;
+    width: 25%;
   }
 }
 
@@ -433,7 +433,7 @@ body {
     /* margin-left: 24.87px; */
   }
   .rightSide {
-    /* width: 30%; */
+    width: 32%;
     /* gap: 20px; */
   }
   .banner {

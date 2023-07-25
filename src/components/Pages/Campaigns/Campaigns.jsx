@@ -5,7 +5,8 @@ import campaigns from "../../../assets/campaigns.png";
 function Campaigns() {
   return (
     <div className="title_compaings">
-      <div className="container_compaings">
+      
+      <div className="container">
         <h2>KAMPANİYALAR</h2>
         <div className="content_compaings">
           <div className="contex_compaings">

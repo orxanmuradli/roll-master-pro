@@ -108,6 +108,7 @@
 
 .dataResult .dataItem {
   width: 105%;
+  /* width: 48%; */
 
   height: 50px;
   display: flex;

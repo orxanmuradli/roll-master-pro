@@ -193,8 +193,9 @@ body {
 }
 
 .leftSide img {
-  width: 80px;
+  width: 88px;
   height: 40px;
+  padding-top: 20px;
 }
 
 .left{
