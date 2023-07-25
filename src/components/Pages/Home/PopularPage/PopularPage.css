@@ -100,3 +100,19 @@ color: var(--color-text);
    
 
 } */
+/* 
+@media only screen and (min-width: 300px) and ( max-width: 700px){
+    .cards{
+        display: flex;
+        padding-top: 40px;
+        gap: 28px;
+        justify-content: space-between;
+        text-align: center;
+        overflow-y: scroll;
+    }  
+    .cart::-webkit-scrollbar{
+    display: none;
+    }
+  
+
+} */

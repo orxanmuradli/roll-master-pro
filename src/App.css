@@ -9,7 +9,7 @@
 
 /* // light renkler burda yazilmalidi */
 :root {
-  --color-text: #201F22;
+  --color-text: #201f22;
   --menu-text-color: #fff;
   --menu-bg-color: #fff;
   --footer-bg-color: #fff;
@@ -19,30 +19,30 @@
   /* --popular-bg-color:blue; */
   --menu-bg-color: #201f22;
   --header-bg-color: #fff;
-  --social-bg-color: #201F22;
+  --social-bg-color: #201f22;
   --popular-bg-color: white;
-  --claradix-bg-color:black; 
-  --search-bg-color:#fff; 
+  --claradix-bg-color: black;
+  --search-bg-color: #fff;
   /* --logo-bg-color:black;  */
 }
 /* // dark renkler burda yazilmalidi */
 
 .dark {
   --color-text: white;
-  --menu-text-color: #201F22;
-  --menu-bg-color: #201F22;
+  --menu-text-color: #201f22;
+  --menu-bg-color: #201f22;
   --footer-text-color: white;
-  --footer-bg-color: #201F22;
-  --home-text-color: #201F22;
-  --body-bg-color: #201F22;
+  --footer-bg-color: #201f22;
+  --home-text-color: #201f22;
+  --body-bg-color: #201f22;
   --text-red-color: #f6431b;
   /* --popular-bg-color:blue; */
   --menu-bg-color: white;
-  --header-bg-color: #201F22;
-  --social-bg-color: #BDBDC8;
-  --popular-bg-color: #201F22;
+  --header-bg-color: #201f22;
+  --social-bg-color: #bdbdc8;
+  --popular-bg-color: #201f22;
   --claradix-bg-color: white;
-  --search-bg-color:#201F22; 
+  --search-bg-color: #201f22;
   /* --logo-bg-color:white;  */
 }
 html {
@@ -91,23 +91,22 @@ body {
   .navbar {
     /* gap: 25%; */
   }
-  .navbar #desktop{
+  .navbar #desktop {
     gap: 20px !important;
   }
- 
 }
 
-@media only screen and (max-width: 1080px){
-  .navbar #desktop a{
+@media only screen and (max-width: 1080px) {
+  .navbar #desktop a {
     font-size: 20px !important;
   }
-} 
+}
 @media only screen and (max-width: 992px) {
   .navbar a {
     font-size: 18px !important;
   }
 
-  .search{
+  .search {
     position: relative !important;
   }
 
@@ -121,8 +120,6 @@ body {
     font-size: 24px !important;
   }
 
-
-  
   .set-search {
     /* margin-left: 330px; */
     /* margin-top: -15px; */
@@ -145,17 +142,16 @@ body {
     margin-left: -148px;
   
 } */
-.righting2 {
-  /* padding: 20px; */
- 
+  .righting2 {
+    /* padding: 20px; */
+
     /* padding: 20px; */
     white-space: nowrap;
     display: flex;
     justify-content: center;
     align-items: center;
     /* justify-content: center; */
-   
-}
+  }
   /* display: flex;
   justify-content: center;
   align-items: center;
@@ -166,8 +162,6 @@ body {
   border-right: 1px solid var(--color-text);
   white-space: nowrap;
 }
-
-
 
 /* 
 @media only screen and (max-width: 700px) {
@@ -184,55 +178,59 @@ body {
   
 } */
 
-@media only screen and (min-width: 300px) and ( max-width: 700px) {
+@media only screen and (min-width: 300px) and (max-width: 700px) {
   .right {
     display: none !important;
   }
-  .cards{
+  .cards {
     width: 855px;
-}
+    overflow-y: scroll;
+  }
+  .card-main {
+    overflow-x: scroll;
+  }
 
-.leftSide img {
-  width: 88px;
-  height: 40px;
-  padding-top: 20px;
-}
+  .cart::-webkit-scrollbar {
+    display: none;
+  }
 
-.left{
-  margin-left: 80px;
-}
-.righting2{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  white-space: nowrap;
- }
- .social .left > div {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  white-space: nowrap;
-}
-.footer-top-mobile 
-{
-  display: flex;
-  border: 1px solid black;
-  justify-content: space-evenly;
-  /* width: 340px; */
-  /* margin-left: 10px; */
-  height: 70px;
-  border-right: 0px;
-  border-left: 0px;
-}
-/* .rightSide {
+  .leftSide img {
+    width: 88px;
+    height: 40px;
+    padding-top: 20px;
+  }
+
+  .left {
+    margin-left: 80px;
+  }
+  .righting2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+  }
+  .social .left > div {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+  }
+  .footer-top-mobile {
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-evenly;
+    /* width: 340px; */
+    /* margin-left: 10px; */
+    height: 70px;
+    border-right: 0px;
+    border-left: 0px;
+  }
+  /* .rightSide {
   padding-top: 31px;
   display: flex;
   justify-content: center;
   gap: 20px!important;
   width: 15%;
 } */
-
-
-
 }
