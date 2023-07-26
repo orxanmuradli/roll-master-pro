@@ -11,7 +11,7 @@ function SearchBar({ placoholder, data, className, setSearch, mode }) {
     const searchWord = event.target.value;
     setWordEntered(searchWord);
     const newFilter = data.filter((value) => {
-      return value.title.toLowerCase().includes(searchWord.toLowerCase());
+      return value.title.toLowerCase().startsWith(searchWord.toLowerCase());
     });
 
     if (searchWord === "") {
@@ -22,9 +22,8 @@ function SearchBar({ placoholder, data, className, setSearch, mode }) {
   };
   const clearInput = () => {
     setFilteredData([]);
-    // eslint-disable-next-line no-unused-expressions
-
     setWordEntered("");
+    setSearch(false);
   };
   return (
     <div className={`search ${className}`}>
@@ -53,7 +52,7 @@ function SearchBar({ placoholder, data, className, setSearch, mode }) {
             </svg>
 
             <svg
-              onClick={() => setSearch(false)}
+              onClick={clearInput}
               id="clearBtn"
               width="20"
               height="20"
@@ -69,7 +68,6 @@ function SearchBar({ placoholder, data, className, setSearch, mode }) {
           </div>
         </div>
       </div>
-      {console.log(filteredData)}
       {filteredData.length !== 0 && (
         // <div className="Result"></div>
 

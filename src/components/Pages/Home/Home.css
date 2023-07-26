@@ -200,12 +200,9 @@ width: 566px; */
   display: inline-block;
 }
 
-.header_link :hover {
+.link_rectangle:hover {
   background-color: #ffffff;
   color: black;
-}
-.header_link:hover svg path {
-  transition: 0.3s;
 }
 .header_link img{
   margin-left: 18px;
