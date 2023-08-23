@@ -19,14 +19,11 @@
   font-family: "Anton", sans-serif;
 }
 
-
-.left-content svg  path{
+.left-content svg path {
   fill: var(--color-text);
 }
-  
 
 .left-content svg:hover path {
-  
   fill: #de4320;
 }
 .footer-top-mobile {
@@ -48,7 +45,7 @@
   transition: 0.3s;
   color: var(--text-white-color);
 }
-.darkMode{
+.darkMode {
   /* border-left: 0px; */
 }
 
@@ -116,8 +113,7 @@
   border-left: 1px solid;
 }
 
-
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 900px) {
   .footer-top-mobile {
     display: flex;
     border: 1px solid black;
@@ -126,7 +122,7 @@
     border-right: 0px;
     border-left: 0px;
   }
-  .footer-top-mobile a{
+  .footer-top-mobile a {
     border: 1 px solid black;
     display: flex;
     justify-content: center;
@@ -155,25 +151,25 @@
     position: relative;
     /* right: 25px; */
   }
-  .face{
+  .face {
     /* padding: 35px; */
     display: flex !important;
     justify-content: center;
     align-items: center;
   }
-  .darkMode{
+  .darkMode {
     /* padding: 35px 20px 0px 30px; */
     display: flex !important;
     justify-content: center;
     align-items: center;
   }
-  .insta{
+  .insta {
     /* padding: 35px; */
     display: flex !important;
     justify-content: center;
     align-items: center;
   }
-  .wolt{
+  .wolt {
     /* padding: 35px 20px 0px 10px; */
     display: flex !important;
     justify-content: center;
@@ -182,7 +178,7 @@
   .wolt div {
     right: 0px !important;
   }
-  
+
   .footer-bottom {
     display: grid;
   }
@@ -190,46 +186,43 @@
     /* margin-left: 15px; */
     width: 682px;
   }
-  .righting2{
+  .righting2 {
     display: flex;
     justify-content: center;
     align-items: center;
     white-space: nowrap;
-   }
-   .social .left > div {
+  }
+  .social .left > div {
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.style span {
-  font-size: 20px;
-  font-family: 'Anton', sans-serif;
-  font-weight: 400;
-  gap: 20px;
-  position: relative;
-  top: 20px;
-}
-
+  }
+  .style span {
+    font-size: 20px;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    gap: 20px;
+    position: relative;
+    margin-top: 20px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
   .footer-top-mobile {
     display: none;
   }
-
-  
 }
 
-@media (max-width:768px){
-  .footer-content .container{
+@media (max-width: 768px) {
+  .footer-content .container {
     max-width: 100%;
     margin: 0;
-   }
-   .footer-content .darkMode{
+  }
+  .footer-content .darkMode {
     border-left: 0;
-   }
-   .footer-top{
+  }
+  .footer-top {
     border-top: 0;
-   }
+  }
 }

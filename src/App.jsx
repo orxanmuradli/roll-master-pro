@@ -4,11 +4,12 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./components/Pages/Home/Home";
 import SearchBar from "./components/Pages/SearchBar/SearchBar";
 import BookData from "../src/data/search-data.json";
-// import Blog from "./components/Pages/Blog/Blog";
-// import PopularPage from "./components/Pages/Home/PopularPage/PopularPage";
 import Footer from "./components/Footer/Footer";
-// import Menu from "./components/Pages/Menu/Menu";
 import React, { useEffect, useState } from "react";
+import MenuList from "./components/Pages/MenuList/MenuList";
+import About from "./components/Pages/About/About";
+import Company from "./components/Pages/Company/Company";
+import Bloq from "./components/Pages/Bloq/Bloq";
 // import Menu from './components/Pages/Menu/Menu';
 function App() {
   let oldMode = localStorage.getItem("theme"); //sehifde acilan kimi localstorage baxiram ki nsese var ya yox
@@ -39,6 +40,10 @@ function App() {
       <Header mode={mode} setMode={setMode} />
       <Routes>
         <Route path="/" element={<Home mode={mode} setMode={setMode} />} />
+        <Route path="/MENYU" element={<MenuList />} />
+        <Route path="/HAQQIMIZDA" element={<About />} />
+        <Route path="/KAMPANİYALAR" element={<Company />} />
+        <Route path="/BLOQ" element={<Bloq/>} />
       </Routes>
       <Footer setMode={setMode} mode={mode} />
     </div>

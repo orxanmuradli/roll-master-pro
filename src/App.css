@@ -45,7 +45,8 @@
   --search-bg-color: #201f22;
   /* --logo-bg-color:white;  */
 }
-html {
+html,
+body {
   overflow-x: hidden;
 }
 
@@ -53,7 +54,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Anton", sans-serif;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   background-color: var(--body-bg-color);
 }
 
@@ -187,12 +188,11 @@ body {
     overflow-y: scroll;
   }
 
- 
   .card-main {
     overflow-x: scroll;
   }
 
-  .cart::-webkit-scrollbar {
+  .carts::-webkit-scrollbar {
     display: none;
   }
 

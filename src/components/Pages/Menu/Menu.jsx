@@ -8,12 +8,16 @@ import menu6 from "../../../assets/menu6.png";
 import vector from "../../../assets/vector.png";
 import scor from "../../../assets/scor.png";
 import left from "../../../assets/left.png";
+
+// import BreadCrumbs from "../BreadCrumbs/BreadCrumbs";
+
 // import scor2 from "../../../assets/scor2.png";
 import React from "react";
 
 const Menu = () => {
   return (
     <div className="special">
+      {/* <BreadCrumbs /> */}
       <div className="special-tittle">
         <div className="container">
           <div className="menu_title">
@@ -23,10 +27,21 @@ const Menu = () => {
             <div className="menu-download">
               <span>Menyunu yüklə</span>
               <div>
-               <svg width="20" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M22.5 15.5V20.1667C22.5 20.7855 22.2542 21.379 21.8166 21.8166C21.379 22.2542 20.7855 22.5 20.1667 22.5H3.83333C3.21449 22.5 2.621 22.2542 2.18342 21.8166C1.74583 21.379 1.5 20.7855 1.5 20.1667V15.5M6.16667 9.66667L12 15.5M12 15.5L17.8333 9.66667M12 15.5V1.5" stroke="#BDBDC8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
-
+                <svg
+                  width="20"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M22.5 15.5V20.1667C22.5 20.7855 22.2542 21.379 21.8166 21.8166C21.379 22.2542 20.7855 22.5 20.1667 22.5H3.83333C3.21449 22.5 2.621 22.2542 2.18342 21.8166C1.74583 21.379 1.5 20.7855 1.5 20.1667V15.5M6.16667 9.66667L12 15.5M12 15.5L17.8333 9.66667M12 15.5V1.5"
+                    stroke="#BDBDC8"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
               </div>
 
               {/* <img src={scor2} alt="" /> */}

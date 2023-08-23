@@ -1,6 +1,6 @@
 import Logo from "../../assets/logo.png";
 import LogoDark from "../../assets/dark.svg";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 import SearchBar from "../Pages/SearchBar/SearchBar";
 import BookData from "../../data/search-data.json";
@@ -48,21 +48,21 @@ const Header = ({ mode }) => {
             <ul id="desktop">
               <li>
                 {" "}
-                <Link to="/MENYU">MENYU</Link>
+                <NavLink to="/MENYU">MENYU</NavLink>
               </li>
               <li>
-                <Link to="/KAMPANİYALAR">KAMPANİYALAR</Link>
-              </li>
-              <li>
-                {" "}
-                <Link to="/HAQQIMIZDA">HAQQIMIZDA</Link>
-              </li>
-              <li>
-                <Link to="/BLOQ">BLOQ</Link>
+                <NavLink to="/KAMPANİYALAR">KAMPANİYALAR</NavLink>
               </li>
               <li>
                 {" "}
-                <Link to="/ƏLAQƏ">ƏLAQƏ</Link>
+                <NavLink to="/HAQQIMIZDA">HAQQIMIZDA</NavLink>
+              </li>
+              <li>
+                <NavLink to="/BLOQ">BLOQ</NavLink>
+              </li>
+              <li>
+                {" "}
+                <NavLink to="/ƏLAQƏ">ƏLAQƏ</NavLink>
               </li>
             </ul>
           </div>
@@ -75,19 +75,19 @@ const Header = ({ mode }) => {
             <ul id="mobile-menu">
               <div style={{ paddingTop: "25px" }}>
                 <li>
-                  <Link href="#">MENYU</Link>
+                  <NavLink href="#">MENYU</NavLink>
                 </li>
                 <li>
-                  <Link href="#">KAMPANİYALAR</Link>
+                  <NavLink href="#">KAMPANİYALAR</NavLink>
                 </li>
                 <li>
-                  <Link href="#">HAQQIMIZDA</Link>
+                  <NavLink href="#">HAQQIMIZDA</NavLink>
                 </li>
                 <li>
-                  <Link href="#">BLOQ</Link>
+                  <NavLink href="#">BLOQ</NavLink>
                 </li>
                 <li>
-                  <Link href="#">ƏLAQƏ</Link>
+                  <NavLink href="#">ƏLAQƏ</NavLink>
                 </li>
               </div>
               {/* <div className="social__icons">

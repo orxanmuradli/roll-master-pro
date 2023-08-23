@@ -1,65 +1,61 @@
-.styles{
-    display: flex;
-    /* height: 340px; */
-    padding-top: 24px;
-    gap: 28px;
-    justify-content: space-between;
-    text-align: center;
-   
+.styles {
+  display: flex;
+  /* height: 340px; */
+  padding-top: 24px;
+  gap: 28px;
+  justify-content: space-between;
+  text-align: center;
 }
 
-.blog{
-    margin-top: 160px;
-
+.blog {
+  margin-top: 160px;
 }
 
-
-
-.blog-tittle h1{
-    color: #DE4320;
-    font-family: 'Anton', sans-serif;
-    font-size: 40px;
-    line-height: 60pxz;
-    cursor: default;
+.blog-main {
+  overflow-x: scroll;
+  /* overflow: hidden; */
+}
+.blog-tittle h1 {
+  color: #de4320;
+  font-family: "Anton", sans-serif;
+  font-size: 40px;
+  line-height: 60pxz;
+  cursor: default;
 }
 
-
-.style{
-    width: 33%;
-    cursor: pointer;
-   
-   
+.style {
+  width: 33%;
+  cursor: pointer;
 }
 
-.style img{
-    width: 100%;
-    gap: 30px;
-    /* background-size: cover; */
-    
+.style img {
+  width: 100%;
+  gap: 30px;
+  /* background-size: cover; */
 }
 
-.style span{
-    font-size: 19px;
-    font-family: 'Anton', sans-serif;
-    font-weight: 400;
-    gap: 20px;
-    position: relative;
-    top: 20px;
-    color: var(--color-text);
+.style span {
+  font-size: 19px;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  gap: 20px;
+  position: relative;
+  margin-top: 20px;
+  color: var(--color-text);
 }
 
 /* @media only screen and (min-width: 370px) and ( max-width: 700px){
    
 } */
 
-@media only screen and (max-width: 700px){
-    .styles{
-        width: 1040px;
-    }
+@media only screen and (max-width: 700px) {
+  .styles {
+    width: 1040px;
+  }
 }
 
-@media only screen and (max-width: 370px){
-    .styles{
-        width: 863px;
-    }
+@media only screen and (max-width: 370px) {
+  .styles {
+    width: 863px;
+  }
 }
