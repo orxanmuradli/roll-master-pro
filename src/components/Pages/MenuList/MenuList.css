@@ -1,10 +1,14 @@
-.special-bar-trigger {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* .special-bar-trigger {
   display: flex;
   justify-content: space-between;
 
-  /* width: 100%; */
-  /* margin-inline: -6%; */
-}
+
+} */
 .left-container-trigger {
   width: 100%;
   /* padding-left: 70px; */
@@ -21,15 +25,16 @@
 
 .special-trigger-cards {
   display: flex;
-  justify-content: center;
+  margin: auto;
+
   align-items: center;
   flex-wrap: wrap;
   padding-top: 40px;
-  gap: 32px;
 
-  /* justify-content: space-between; */
+  justify-content: space-between;
   text-align: center;
 }
+
 .special-trigger {
   margin-top: 40px;
 }
@@ -39,7 +44,7 @@
   font-family: "Anton", sans-serif;
   font-size: 40px;
   font-weight: 400;
-  padding-top: 78px;
+  /* padding-top: 78px; */
   line-height: 60px;
   margin-bottom: 20px;
   cursor: default;
@@ -65,15 +70,15 @@
   transition: 0.3s;
 }
 .menu-download {
-  padding-top: 108px;
+  /* padding-top: 108px; */
   font-family: "Anton", sans-serif;
   font-style: Regular;
   color: #c9c9d1;
   font-size: 24px;
-  line-height: 32px;
+  /* line-height: 32px; */
   line-height: 97%;
   display: flex;
-  gap: 12px;
+  /* gap: 12px; */
   cursor: pointer;
   z-index: 10;
   transition: 0.3s;
@@ -91,9 +96,6 @@
   stroke: black;
 }
 
-/* .menu-download svg{
-     margin: auto 10px;
- } */
 .specials p {
   color: #201f22;
   font-family: "Anton", sans-serif;
@@ -107,30 +109,33 @@
   font-size: 24px;
   font-weight: 400;
   line-height: 36/13px;
-  /* letter-spacing: 0em; */
+
   text-align: center;
   color: #201f22;
 }
 .trigger-card {
-  width: 401px;
-  height: 468px;
+  margin: 0;
+  width: calc((100% - 64px) / 3);
+  height: auto;
   cursor: pointer;
-  /* padding-left: 25px;  */
   margin-bottom: 8px;
-  gap: 8px;
+
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .trigger-card img {
   width: 100%;
 }
 
-.slsnlsk{
+.slsnlsk {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 8px;
   margin-top: 16px;
+  margin: 16px;
 }
 .trigger-card p {
   font-size: 16px;
@@ -150,8 +155,10 @@
 
 .menu_title {
   display: flex;
-  margin-inline: 6px;
+  margin: 0;
   justify-content: space-between;
+  align-items: center;
+  text-align: center;
 }
 
 .menu_title h3 {
@@ -160,12 +167,22 @@
 
 .Rollar-trigger {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100px;
+  margin: auto !important;
+  justify-content: space-between;
+
+  /* height: 100px; */
   gap: 20px;
 }
-.Rollar-trigger p {
+.Rolrigger1,
+.Rolrigger2,
+.Rolrigger3,
+.Rolrigger4 {
+  background-color: black;
+  color: white;
+  width: 23%;
+  text-align: center;
+}
+/* .Rollar-trigger p {
   width: 259px;
   font-size: 30px;
   text-align: center;
@@ -173,4 +190,195 @@
   background: black;
   color: white;
   padding: 24px 32px 24px 32px;
+} */
+
+@media only screen and (max-width: 1300px) {
+}
+
+@media only screen and (max-width: 1230px) {
+}
+
+@media only screen and (max-width: 992px) {
+}
+
+@media only screen and (max-width: 768px) {
+  .menu_title {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+  }
+  .menu-download {
+    padding: 0;
+    margin: 0;
+  }
+  .menu_titleh3 {
+    padding: 0;
+    margin: 0;
+  }
+  .Rollar-trigger {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+  .Rolrigger1,
+  .Rolrigger2,
+  .Rolrigger3,
+  .Rolrigger4 {
+    color: #fff;
+    font-size: 24px;
+    font-family: "Anton", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+
+    line-height: 24px;
+    width: 49%;
+    height: auto;
+  }
+  .special-trigger-cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .trigger-card {
+    margin: 0;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    margin-bottom: 32px;
+
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* .slsnlsk {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 8px;
+      margin-top: 16px;
+      margin: 16px;
+  } */
+  .slsnlsk h2 {
+    color: #201f22;
+    font-size: 24px;
+    font-family: "Anton", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 16px;
+  }
+  .slsnlsk p {
+    color: #bdbdc8;
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .slsnlsk span {
+    color: #de4320;
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .menu_title {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+  }
+  .menu-download {
+    padding: 0;
+    margin: 0;
+  }
+  .menu_titleh3 {
+    padding: 0;
+    margin: 0;
+  }
+  .Rollar-trigger {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+  .Rolrigger1,
+  .Rolrigger2,
+  .Rolrigger3,
+  .Rolrigger4 {
+    color: #fff;
+    font-size: 24px;
+    font-family: "Anton", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+
+    line-height: 24px;
+    width: 49%;
+    height: auto;
+  }
+  .special-trigger-cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .trigger-card {
+    margin: 0;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    margin-bottom: 32px;
+
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* .slsnlsk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 16px;
+    margin: 16px;
+} */
+  .slsnlsk h2 {
+    color: #201f22;
+    font-size: 24px;
+    font-family: "Anton", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 16px;
+  }
+  .slsnlsk p {
+    color: #bdbdc8;
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .slsnlsk span {
+    color: #de4320;
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+}
+
+@media only screen and (max-width: 290px) {
 }

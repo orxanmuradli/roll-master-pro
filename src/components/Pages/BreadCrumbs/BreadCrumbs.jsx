@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
 import { useLocation, Link } from "react-router-dom";
 import "./BreadCrumbs.css";
 
 function BreadCrumbs({ pathnames }) {
-    return (
-      <>
-        <div className="first_text_of_breadcrumb">
+  return (
+    <>
+      <div className="first_text_of_breadcrumb">
+        <div className="container">
           {pathnames &&
             pathnames.map((path, index) =>
               path === "" ? (
@@ -15,10 +16,18 @@ function BreadCrumbs({ pathnames }) {
               ) : index === pathnames.length - 1 ? (
                 <div className="last_text_of_breadrcrumb">
                   <div>
-
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-  <path d="M14 18L12.6 16.55L16.15 13H4V11H16.15L12.6 7.45L14 6L20 12L14 18Z" fill="#BDBDC8"/>
-</svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <path
+                        d="M14 18L12.6 16.55L16.15 13H4V11H16.15L12.6 7.45L14 6L20 12L14 18Z"
+                        fill="#BDBDC8"
+                      />
+                    </svg>
                     {/* <svg
                       width="24"
                       height="24"
@@ -57,8 +66,9 @@ function BreadCrumbs({ pathnames }) {
               )
             )}
         </div>
-      </>
-    );
-  }
-  
-  export default BreadCrumbs;
+      </div>
+    </>
+  );
+}
+
+export default BreadCrumbs;

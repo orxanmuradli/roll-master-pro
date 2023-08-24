@@ -16,7 +16,9 @@ const Bloq = () => {
         <h2>BLOQ</h2>
         <div className="bloq-header">
           <div className="informations">
+            <div className="imform-img">
             <img src={rector} alt="" />
+            </div>
             <div className="bloq-spans">
             <span>İlk dəfə yeyənlər üçün dadlı 10 suşi növü</span>
             </div>
@@ -33,6 +35,7 @@ const Bloq = () => {
             <span>İlk dəfə yeyənlər üçün dadlı 10 suşi növü</span>
             </div>
           </div>
+          <div className="informations-two">
           <div className="informations">
             <img src={recmos} alt="" />
             <div className="bloq-spans">
@@ -44,6 +47,7 @@ const Bloq = () => {
             <div className="bloq-spans">
             <span>İlk dəfə yeyənlər üçün dadlı 10 suşi növü</span>
             </div>
+          </div>
           </div>
         </div>
       </div>

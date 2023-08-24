@@ -16,7 +16,7 @@ const MenuList = () => {
       <div className="special-trigger">
         <div className="container">
           <div className="menu_title">
-            <div>
+            <div className="menu_titleh3">
               <h3>MENYU</h3>
             </div>
             <div className="menu-download">
@@ -44,15 +44,25 @@ const MenuList = () => {
           <div className="special-bar-trigger">
             <div className="left-container-trigger">
               <div className="Rollar-trigger">
-                <p>ROLLAR</p>
-                <p>SETLƏR</p>
-                <p>ƏRİŞTƏLƏR & BURGER</p>
-                <p>İÇKİLƏR VƏ ƏLAVƏLƏR</p>
+                <div className="Rolrigger1">
+                  <p>ROLLAR</p> 
+                </div>
+
+                <div className="Rolrigger2">
+                  <p>SETLƏR</p>
+                </div>
+                <div className="Rolrigger3">
+                  <p>ƏRİŞTƏLƏR & BURGER</p>
+                </div>
+
+                <div className="Rolrigger4">
+                  <p>İÇKİLƏR VƏ ƏLAVƏLƏR</p>
+                </div>
               </div>
 
               <div className="special-trigger-cards">
                 <div className="trigger-card">
-                  <img src={menu1} alt="" />
+                 <img src={menu1} alt="" />
                   <div className="slsnlsk">
                     <h2>California Salmon</h2>
                     <p>DÜYÜ, NORİ, XİYAR </p>
