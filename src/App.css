@@ -5,6 +5,7 @@
   -khtml-user-drag: none;
   -moz-user-drag: none;
   -o-user-drag: none;
+  box-sizing: border-box;
 }
 
 /* // light renkler burda yazilmalidi */

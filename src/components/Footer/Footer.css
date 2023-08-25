@@ -114,6 +114,16 @@
 }
 
 @media only screen and (max-width: 900px) {
+  .right-content {
+    grid-area: 1;
+  }
+  .footer-bottom {
+    justify-content: normal;
+  }
+  .left-content,
+  .right-content {
+    padding-left: 20px;
+  }
   .footer-top-mobile {
     display: flex;
     border: 1px solid black;
@@ -151,6 +161,11 @@
     position: relative;
     /* right: 25px; */
   }
+
+  .left-content span {
+    font-size: 20px;
+  }
+
   .face {
     /* padding: 35px; */
     display: flex !important;

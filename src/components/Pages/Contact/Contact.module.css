@@ -1,0 +1,355 @@
+.section_contact h2 {
+  font-size: 40px;
+  font-weight: 400;
+}
+.contacttwo {
+  margin: 40px 0 80px -40px;
+}
+.sectioncontact {
+  margin-left: 60px;
+  margin-right: 79px;
+}
+.main {
+  margin-top: 80px;
+}
+.leftside {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
+.leftside p {
+  font-size: 20px;
+  color: #de4320;
+  padding-bottom: 32px;
+  font-weight: 400;
+}
+.complain {
+  margin-top: 20px;
+
+  width: 73%;
+}
+.contact {
+  margin-top: 20px;
+
+  width: 73%;
+}
+.naming {
+  margin-top: 20px;
+
+  width: 73%;
+}
+
+.complain input {
+  border: none;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  font-size: 24px;
+  outline: none;
+  width: 100%;
+  font-weight: 400;
+}
+.naming input,
+.contact input,
+.complain input {
+  border: none;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  font-size: 24px;
+  outline: none;
+
+  font-weight: 400;
+  width: 100%;
+  border-bottom: 1px solid black;
+  /* border-top: 1px solid black; */
+}
+.kjba {
+  border: none;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  font-size: 24px;
+  outline: none;
+  width: 100%;
+  font-weight: 400;
+}
+.name input::placeholder,
+.contact input::placeholder,
+.complain input::placeholder {
+  color: #bdbdc8;
+}
+
+.section_contact label {
+  font-size: 20px;
+  font-weight: 400;
+  color: #504e53;
+}
+
+.main {
+  display: flex;
+}
+.rightside {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.rightside p {
+  color: #de4320;
+  font-size: 20px;
+  font-weight: 400;
+}
+.wolt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 77px;
+  padding-top: 29px;
+  padding-bottom: 60px;
+}
+.wolt Link {
+  font-weight: 400;
+  font-size: 32px;
+}
+.sosials {
+  display: flex;
+  gap: 40px;
+  width: 44px;
+  height: 44px;
+}
+.sosials img {
+  color: black;
+  width: 100%;
+  object-fit: contain;
+}
+.bottomsside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 44px;
+}
+.redsButton {
+  text-align: center;
+  background-color: #de4320;
+  padding: 16px 36px;
+  border: none;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 1300px) {
+}
+
+@media only screen and (max-width: 1250px) {
+}
+
+@media only screen and (max-width: 1150px) {
+}
+
+@media only screen and (max-width: 991px) {
+  .section_contact {
+    margin-left: 16px;
+  }
+  .main {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .inputss {
+    border: none;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    font-size: 24px;
+    outline: none;
+    width: 100%;
+  }
+  .naming,
+  .contact,
+  .complain {
+    margin-top: 20px;
+    border-bottom: solid 1px black !important;
+    width: 100%;
+  }
+  .rightside {
+    width: 100%;
+  }
+  .wolt {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    padding-top: 26px;
+  }
+  .wolt link {
+    font-size: 24px;
+    color: #201f22;
+  }
+  .section_contact label {
+    font-size: 20px;
+  }
+  .naming input,
+  .contact input,
+  .complain input {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 24px;
+  }
+  .sosials {
+    display: flex;
+    gap: 40px;
+    width: 32px;
+    height: 32px;
+    margin-top: 24px;
+    margin-bottom: 60px;
+  }
+  .sosials img {
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .bottomsside {
+    display: flex;
+    justify-content: end;
+    margin-top: 24px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .section_contact {
+    margin-left: 16px;
+  }
+  .main {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .inputss {
+    border: none;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    font-size: 24px;
+    outline: none;
+    width: 100%;
+  }
+  .naming,
+  .contact,
+  .complain {
+    margin-top: 20px;
+    border-bottom: solid 1px black !important;
+    width: 100%;
+  }
+  .rightside {
+    width: 100%;
+  }
+  .wolt {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    padding-top: 26px;
+  }
+  .wolt link {
+    font-size: 24px;
+    color: #201f22;
+  }
+  .section_contact label {
+    font-size: 20px;
+  }
+  .naming input,
+  .contact input,
+  .complain input {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 24px;
+  }
+  .sosials {
+    display: flex;
+    gap: 40px;
+    width: 32px;
+    height: 32px;
+    margin-top: 24px;
+    margin-bottom: 60px;
+  }
+  .sosials img {
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .bottomsside {
+    display: flex;
+    justify-content: end;
+    margin-top: 24px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+}
+
+@media only screen and (max-width: 320px) {
+}
+
+@media only screen and (max-width: 280px) {
+  .section_contact {
+    margin-left: 6px;
+  }
+
+  .inputss {
+    border: none;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    font-size: 24px;
+    outline: none;
+    width: 100%;
+  }
+  .naming,
+  .contact,
+  .complain {
+    margin-top: 20px;
+    border-bottom: solid 1px black !important;
+    width: 100%;
+  }
+  .rightside {
+    width: 100%;
+  }
+  .wolt {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 28px;
+    margin-right: 20px;
+    padding-right: 15px;
+  }
+  .wolt link {
+    font-size: 24px;
+    color: #201f22;
+    padding-right: 0;
+    margin-right: 0;
+  }
+  .wolt img {
+    padding-right: 20px;
+    margin-right: 20px;
+  }
+  .section_contact label {
+    font-size: 20px;
+  }
+  .naming input,
+  .contact input,
+  .complain input {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 24px;
+  }
+  .sosials {
+    display: flex;
+    gap: 40px;
+    width: 32px;
+    height: 32px;
+    margin-top: 24px;
+    margin-bottom: 60px;
+  }
+  .sosials img {
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .bottomsside {
+    display: flex;
+    justify-content: end;
+    margin-top: 24px;
+  }
+}
