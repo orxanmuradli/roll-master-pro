@@ -29,16 +29,21 @@
 
 .first_text_of_breadcrumb div {
   display: flex;
-  /* justify-content: center;
-    align-items: center;
-    gap: 4px;
-    */
+  gap: 4px;
 }
 
 .pathname_of_breadcrumb {
   display: flex;
   gap: 13.25px;
+  align-items: center;
+  justify-content: center;
 }
 
 .first_text_of_breadcrumb {
+}
+
+.container1 {
+  width: 1360px;
+  max-width: 94%;
+  margin: 0 auto;
 }

@@ -4,12 +4,14 @@ import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 import SearchBar from "../Pages/SearchBar/SearchBar";
 import BookData from "../../data/search-data.json";
-import React, { useEffect, useState } from "react";
-import SocialMedia from "../Footer/Socialmedia";
+import React, { useRef, useState } from "react";
+
 import wolt from "../../assets/wolt.png";
 
 const Header = ({ mode }) => {
   const [search, setSearch] = useState(false);
+  const inputRef = useRef(null);
+
   const handleChange = (e) => {
     document.body.style.overflowY = e.target.checked ? "hidden" : "auto";
     document.body.style.height = e.target.checked ? "100vh" : "auto";
@@ -21,7 +23,7 @@ const Header = ({ mode }) => {
         style={{ transform: `translateX(${search ? "0px" : 0})` }}
       >
         <div className="leftSide">
-          <img src={+mode ? LogoDark : Logo} />
+          <img src={+mode ? LogoDark : Logo} alt="logodark" />
         </div>
 
         <div className="rightSide" id="rightSide">
@@ -68,26 +70,53 @@ const Header = ({ mode }) => {
           </div>
 
           <div id="showw">
-            <input type="checkbox" onChange={handleChange} id="menu" />
+            <input
+              ref={inputRef}
+              type="checkbox"
+              onChange={handleChange}
+              id="menu"
+            />
             <label for="menu" class="bars">
               <div class="bar"></div>
             </label>
             <ul id="mobile-menu">
               <div style={{ paddingTop: "25px" }}>
-                <li>
-                  <NavLink href="#">MENYU</NavLink>
+                <li
+                  onClick={() => {
+                    inputRef.current.click();
+                  }}
+                >
+                  <NavLink to="/MENYU">MENYU</NavLink>
                 </li>
-                <li>
-                  <NavLink href="#">KAMPANİYALAR</NavLink>
+                <li
+                  onClick={() => {
+                    inputRef.current.click();
+                  }}
+                >
+                  <NavLink to="/KAMPANİYALAR">KAMPANİYALAR</NavLink>
                 </li>
-                <li>
-                  <NavLink href="#">HAQQIMIZDA</NavLink>
+                <li  onClick={() => {
+                    inputRef.current.click();
+                  }}>
+                  <NavLink to="/HAQQIMIZDA">HAQQIMIZDA</NavLink>
                 </li>
-                <li>
-                  <NavLink href="#">BLOQ</NavLink>
+
+
+
+
+                <li  onClick={() => {
+                    inputRef.current.click();
+                  }}>
+                  <NavLink to="/BLOQ">BLOQ</NavLink>
                 </li>
-                <li>
-                  <NavLink href="#">ƏLAQƏ</NavLink>
+
+
+
+                <li  onClick={() => {
+                    inputRef.current.click();
+                  }}> 
+
+                 <NavLink to="/ƏLAQƏ">ƏLAQƏ</NavLink>
                 </li>
               </div>
               {/* <div className="social__icons">
@@ -96,7 +125,7 @@ const Header = ({ mode }) => {
               <div className="mobile__menu__footer">
                 <a href="#">
                   <svg
-                  id='navbarSvg'
+                    id="navbarSvg"
                     width="27"
                     height="30"
                     viewBox="0 0 27 30"
@@ -122,18 +151,6 @@ const Header = ({ mode }) => {
                       fill="#201F22"
                     />
                   </svg>
-                  {/* <svg
-                    width="28"
-                    height="28"
-                    viewBox="0 0 28 28"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M27.3332 14C27.3332 6.63996 21.3598 0.666626 13.9998 0.666626C6.63984 0.666626 0.666504 6.63996 0.666504 14C0.666504 20.4533 5.25317 25.8266 11.3332 27.0666V18H8.6665V14H11.3332V10.6666C11.3332 8.09329 13.4265 5.99996 15.9998 5.99996H19.3332V9.99996H16.6665C15.9332 9.99996 15.3332 10.6 15.3332 11.3333V14H19.3332V18H15.3332V27.2666C22.0665 26.6 27.3332 20.92 27.3332 14Z"
-                      fill="#201F22"
-                    />
-                  </svg> */}
                 </a>
                 <a href="#">
                   <svg
@@ -149,7 +166,7 @@ const Header = ({ mode }) => {
                     />
                   </svg>
                 </a>
-                {/* <a href="#"> */}
+
                 <a
                   className="wolt"
                   href="https://wolt.com/en/aze/baku/restaurant/rollmaster"
@@ -160,19 +177,6 @@ const Header = ({ mode }) => {
                     <img src={wolt} alt="" />
                   </div>
                 </a>
-                {/* <svg
-                    width="28"
-                    height="28"
-                    viewBox="0 0 28 28"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M27.3332 14C27.3332 6.63996 21.3598 0.666626 13.9998 0.666626C6.63984 0.666626 0.666504 6.63996 0.666504 14C0.666504 20.4533 5.25317 25.8266 11.3332 27.0666V18H8.6665V14H11.3332V10.6666C11.3332 8.09329 13.4265 5.99996 15.9998 5.99996H19.3332V9.99996H16.6665C15.9332 9.99996 15.3332 10.6 15.3332 11.3333V14H19.3332V18H15.3332V27.2666C22.0665 26.6 27.3332 20.92 27.3332 14Z"
-                      fill="#201F22"
-                    />
-                  </svg> */}
-                {/* </a> */}
               </div>
             </ul>
           </div>

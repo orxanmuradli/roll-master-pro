@@ -1,8 +1,7 @@
-import insta from "../../assets/insta.png";
-import face from "../../assets/face.png";
+
 import "./Footer.css";
 import React from "react";
-import SocialMedia from "../Footer/Socialmedia";
+
 import Theme from "../Theme/Theme";
 import wolt from "../../assets/wolt.png";
 import { NavLink } from "react-router-dom";

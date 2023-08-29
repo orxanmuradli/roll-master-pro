@@ -2,10 +2,9 @@ import "./App.css";
 import Header from "./components/Header/Navbar";
 import { Route, Routes } from "react-router-dom";
 import Home from "./components/Pages/Home/Home";
-import SearchBar from "./components/Pages/SearchBar/SearchBar";
-import BookData from "../src/data/search-data.json";
+
 import Footer from "./components/Footer/Footer";
-import React, { useEffect, useState } from "react";
+import { React, useState } from "react";
 import MenuList from "./components/Pages/MenuList/MenuList";
 import About from "./components/Pages/About/About";
 import Company from "./components/Pages/Company/Company";

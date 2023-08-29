@@ -14,7 +14,7 @@ const Header = () => {
         style={{ transform: `translateX(${search ? "0px" : 0})` }}
       >
         <div className="leftSide">
-          <img src={Logo} />
+          <img src={Logo} alt="logo" />
         </div>
         {/* <div className="contex">
            

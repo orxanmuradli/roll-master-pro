@@ -1,21 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-.container h2 {
+.test12 h2 {
   font-size: 40px;
   margin-top: 40px;
   margin-bottom: 20px;
   color: #201f22;
 }
-.container p {
+.test12 p {
   font-size: 20px;
   font-weight: 400;
   color: #504e53;
   line-height: 32px;
   font-family: "Anton", sans-serif;
 }
+
+.content-main-bloq {
+  display: flex;
+  justify-content: start;
+  color: #201f22;
+}
 .bloq-main {
   margin-right: 36px;
-  /* margin-left: 36px; */
+  margin-left: 36px;
   margin-top: 32px;
 }
 .informations1 {
@@ -87,12 +93,12 @@ bloq-spans span {
     margin-left: 16px;
     margin-top: 36px;
   }
-  .container h2 {
+  .test12 h2 {
     font-size: 28px;
     margin-bottom: 12px;
     margin-top: 28px;
   }
-  .container p {
+  .test12 p {
     font-size: 20px;
   }
 
