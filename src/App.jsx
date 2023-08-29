@@ -11,6 +11,8 @@ import About from "./components/Pages/About/About";
 import Company from "./components/Pages/Company/Company";
 import Bloq from "./components/Pages/Bloq/Bloq";
 import Contact from "./components/Pages/Contact/Contact";
+import Error from "./components/Pages/Error/Error";
+import BloqDetail from "./components/Pages/BloqDetail/BloqDetail";
 // import Menu from './components/Pages/Menu/Menu';
 function App() {
   let oldMode = localStorage.getItem("theme"); //sehifde acilan kimi localstorage baxiram ki nsese var ya yox
@@ -44,8 +46,10 @@ function App() {
         <Route path="/MENYU" element={<MenuList />} />
         <Route path="/HAQQIMIZDA" element={<About />} />
         <Route path="/KAMPANİYALAR" element={<Company />} />
-        <Route path="/BLOQ" element={<Bloq/>} />
-        <Route path="/ƏLAQƏ" element={<Contact/>} />
+        <Route path="/BLOQ" element={<Bloq />} />
+        <Route path="/ƏLAQƏ" element={<Contact />} />
+        <Route path="*" element={<Error />} />
+        <Route path="/bloqDetail" element={<BloqDetail />} />
       </Routes>
       <Footer setMode={setMode} mode={mode} />
     </div>

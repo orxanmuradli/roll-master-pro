@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.container h2 {
+  font-size: 40px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #201f22;
+}
+.container p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #504e53;
+  line-height: 32px;
+  font-family: "Anton", sans-serif;
+}
+.bloq-main {
+  margin-right: 36px;
+  /* margin-left: 36px; */
+  margin-top: 32px;
+}
+.informations1 {
+  display: flex;
+  gap: 32px;
+  margin-top: 20px;
+}
+.imform-img {
+  margin-bottom: 239px;
+}
+
+.bloq-main {
+  font-family: "Poppins", sans-serif;
+}
+.bloq-spans1 {
+  margin-right: 112px;
+  margin-bottom: 140px;
+  width: 55%;
+}
+
+.bloq-spans1 span {
+  font-size: 16px;
+  color: #504e53;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Poppins", sans-serif;
+}
+.bloqh3 {
+  font-size: 40px;
+  font-family: "Anton", sans-serif;
+  margin-bottom: 24px;
+}
+
+.bloq_header_main {
+  display: flex;
+  flex-direction: row !important;
+  gap: 32px;
+}
+.informations-main {
+  width: calc((100% - 64px) / 3);
+  gap: 20px;
+}
+.informations-main img {
+  width: 100%;
+}
+
+bloq-spans span {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  color: #201f22;
+  line-height: normal;
+  font-style: normal;
+  font-family: "Anton", sans-serif;
+}
+
+@media screen and (max-width: 1250px) {
+}
+
+@media screen and (max-width: 1150px) {
+}
+
+@media screen and (max-width: 991px) {
+}
+
+@media screen and (max-width: 768px) {
+  .bloq-main {
+    margin-right: 16px;
+    margin-left: 16px;
+    margin-top: 36px;
+  }
+  .container h2 {
+    font-size: 28px;
+    margin-bottom: 12px;
+    margin-top: 28px;
+  }
+  .container p {
+    font-size: 20px;
+  }
+
+  .informations1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .imform-img {
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .bloq-spans1 {
+    margin: 0;
+    width: 100%;
+  }
+  .bloq-spans1 span {
+    font-size: 16px;
+  }
+  .bloqh3 {
+    margin-top: 100px;
+    font-size: 28px;
+    font-family: "Anton", sans-serif;
+    margin-bottom: 20px;
+  }
+  .bloq_header_main {
+    display: flex;
+    flex-direction: column !important;
+  }
+  .informations-main {
+    width: 100%;
+  }
+  .bloq-spans {
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+}

@@ -125,7 +125,7 @@
 
 a {
   text-decoration: none;
-  color: #201F22!important;
+  /* color: #201F22!important; */
 }
 /* 
 .rightSide a:hover{

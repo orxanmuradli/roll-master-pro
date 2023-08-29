@@ -36,11 +36,9 @@
 }
 
 .informations {
-  width: 401px;
-  /* height: 400px; */
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+
   margin-top: 40px;
   gap: 32px;
 }
@@ -87,13 +85,12 @@
   }
 }
 
-
 @media only screen and (max-width: 1300px) {
-.bloq-header {
+  .bloq-header {
     display: flex;
     align-items: center;
-     gap: 0px;
-}
+    gap: 0px;
+  }
 }
 @media only screen and (max-width: 768px) {
   .bloq-header {
