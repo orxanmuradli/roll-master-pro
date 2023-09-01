@@ -24,6 +24,7 @@
   font-style: normal;
   font-weight: 400;
   color: #201f22;
+  color: var(--color-text);
   line-height: 24px;
 }
 

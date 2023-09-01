@@ -21,6 +21,8 @@
   font-weight: 400;
   font-family: "Anton", sans-serif;
   line-height: 54.19px;
+  /* background: var(--menu-bg-color); */
+  /* color: var(--menu-text-color); */
 }
 
 .special-trigger-cards {
@@ -48,6 +50,7 @@
   line-height: 60px;
   margin-bottom: 20px;
   cursor: default;
+  color: var(--menu-text-color);
 }
 .wrapper {
   display: flex;
@@ -111,7 +114,8 @@
   line-height: 36/13px;
 
   text-align: center;
-  color: #201f22;
+  /* color: #201f22; */
+  color: var(--color-text);
 }
 .trigger-card {
   margin: 0;
@@ -141,6 +145,9 @@
   font-size: 16px;
   font-family: "Anton", sans-serif;
   color: #bdbdc8;
+  /* --social-text-color: #bdbdc8; */
+  
+ 
   font-weight: 400;
   line-height: 24.09px;
 }
@@ -162,14 +169,16 @@
 }
 
 .menu_title h3 {
-  color: #201f22;
+  /* color: #201f22; */
+  color: var(--color-text);
+
 }
 
 .Rollar-trigger {
   display: flex;
   margin: auto !important;
   justify-content: space-between;
-
+  color: var(--menu-text-color);
   /* height: 100px; */
   gap: 20px;
 }

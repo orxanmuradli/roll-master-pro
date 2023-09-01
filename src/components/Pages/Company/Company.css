@@ -1,5 +1,6 @@
 .company-heading h2 {
-  color: #201f22;
+  /* color: #201f22; */
+  color: var(--color-text);
   font-size: 40px;
   font-family: "Anton", sans-serif;
   font-weight: 400;

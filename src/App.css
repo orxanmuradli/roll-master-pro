@@ -41,15 +41,16 @@
   --menu-bg-color: white;
   --header-bg-color: #201f22;
   --social-bg-color: #bdbdc8;
+  --social-text-color: #bdbdc8;
   --popular-bg-color: #201f22;
   --claradix-bg-color: white;
   --search-bg-color: #201f22;
   /* --logo-bg-color:white;  */
 }
 html,
-body {
+/* body {
   overflow-x: hidden;
-}
+} */
 
 body {
   padding: 0;
@@ -200,7 +201,7 @@ body {
   .leftSide img {
     width: 88px;
     height: 40px;
-    padding-top: 20px;
+    /* padding-top: 20px; */
   }
 
   .left {

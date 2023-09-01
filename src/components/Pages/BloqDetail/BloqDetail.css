@@ -4,7 +4,8 @@
   font-size: 40px;
   margin-top: 40px;
   margin-bottom: 20px;
-  color: #201f22;
+  /* color: #201f22; */
+  color: var(--color-text);
 }
 .test12 p {
   font-size: 20px;
@@ -53,6 +54,7 @@
   font-size: 40px;
   font-family: "Anton", sans-serif;
   margin-bottom: 24px;
+  color: var(--color-text);
 }
 
 .bloq_header_main {
@@ -68,14 +70,16 @@
   width: 100%;
 }
 
-bloq-spans span {
-  font-size: 20px;
+.bloq-spans span {
+  font-size: 24px;
   font-weight: 400;
   text-align: center;
-  color: #201f22;
+  /* color: #201f22; */
+  color: var(--color-text);
   line-height: normal;
   font-style: normal;
   font-family: "Anton", sans-serif;
+  
 }
 
 @media screen and (max-width: 1250px) {

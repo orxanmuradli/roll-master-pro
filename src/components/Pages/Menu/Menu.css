@@ -39,7 +39,8 @@
 }
 
 .special-tittle h3 {
-  color: #de4320;
+  color: #de4320!important;
+  
   font-family: "Anton", sans-serif;
   font-size: 40px;
   font-weight: 400;
@@ -212,4 +213,5 @@
   font-size: 36px;
   position: relative;
   top: 20px;
+  color: var(--color-text);
 }

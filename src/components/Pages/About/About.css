@@ -1,5 +1,6 @@
 .about-heading h2 {
-  color: #201f22;
+  /* color: #201f22; */
+  color: var(--color-text);
   font-family: "Anton", sans-serif;
   font-weight: 400;
   font-size: 40px;
@@ -9,7 +10,9 @@
 }
 
 .about-tittle h1 {
-  color: #201f22;
+  /* color: #201f22; */
+  /* color: var(--menu-text-color); */
+  color: var(--color-text);
   font-family: "Anton", sans-serif;
   font-weight: 400;
   font-size: 64px;

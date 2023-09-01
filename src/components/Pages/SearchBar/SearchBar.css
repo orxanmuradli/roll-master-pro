@@ -18,7 +18,7 @@
   align-items: center;
   opacity: 0;
   visibility: hidden;
-  transition: 0.2s ease all;
+  /* transition: 0.2s ease all; */
   position: absolute !important;
 }
 
@@ -179,6 +179,6 @@ a {
 @media only screen and (max-width: 786px) {
   .dataResult {
     height: 326px;
-     width: 124%;
+    width: 124%;
   }
 }

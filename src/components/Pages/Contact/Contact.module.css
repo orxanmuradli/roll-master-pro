@@ -5,6 +5,14 @@
 .contacttwo {
   margin: 40px 0 80px -40px;
 }
+.contacttwo_h2 {
+  color: var(--color-text);
+}
+
+.contacttwo_h2 h2 {
+  font-weight: 400;
+}
+
 .sectioncontact {
   margin-left: 60px;
   margin-right: 79px;
@@ -25,17 +33,21 @@
 }
 .complain {
   margin-top: 20px;
-
+  color: var(--color-text);
   width: 73%;
+}
+
+input{
+ 
 }
 .contact {
   margin-top: 20px;
-
+  color: var(--color-text);
   width: 73%;
 }
 .naming {
   margin-top: 20px;
-
+  color: var(--color-text);
   width: 73%;
 }
 
@@ -51,15 +63,18 @@
 .naming input,
 .contact input,
 .complain input {
+  --search-bg-color: #fff;
   border: none;
   padding-top: 28px;
   padding-bottom: 28px;
   font-size: 24px;
   outline: none;
+  background: transparent;
 
   font-weight: 400;
   width: 100%;
-  border-bottom: 1px solid black;
+  /* color: #BDBDC8; */
+  border-bottom: 1px solid #bdbdc8;
   /* border-top: 1px solid black; */
 }
 .kjba {
@@ -80,7 +95,7 @@
 .section_contact label {
   font-size: 20px;
   font-weight: 400;
-  color: #504e53;
+  /* color: #504e53; */
 }
 
 .main {
@@ -134,6 +149,11 @@
   color: #ffffff;
   font-size: 24px;
   font-weight: 400;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 @media only screen and (max-width: 1300px) {

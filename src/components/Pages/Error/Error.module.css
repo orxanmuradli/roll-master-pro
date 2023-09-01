@@ -23,6 +23,11 @@
   font-weight: 400;
   font-family: "Anton", sans-serif;
 }
+
+/* .arrow_to_right p{
+  color: var(--color-text);
+} */
+
 .container_of_error img {
   width: 544px;
   height: 364px;

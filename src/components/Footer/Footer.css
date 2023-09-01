@@ -126,6 +126,7 @@
   }
   .footer-top-mobile {
     display: flex;
+
     border: 1px solid black;
     justify-content: space-evenly;
     height: 70px;
@@ -163,7 +164,7 @@
   }
 
   .left-content span {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .face {
@@ -199,7 +200,7 @@
   }
   .right-content {
     /* margin-left: 15px; */
-    width: 682px;
+    /* width: 682px; */
   }
   .righting2 {
     display: flex;
@@ -214,7 +215,7 @@
     align-items: center;
   }
   .style span {
-    font-size: 20px;
+    font-size: 16px;
     font-family: "Anton", sans-serif;
     font-weight: 400;
     gap: 20px;
@@ -239,5 +240,10 @@
   }
   .footer-top {
     border-top: 0;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .left-content span {
+    font-size: 14px;
   }
 }

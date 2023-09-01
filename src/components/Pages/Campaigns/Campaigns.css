@@ -41,7 +41,9 @@
   font-family: "Anton", sans-serif;
   font-size: 24px;
   line-height: 32px;
-  color: #201f22;
+  /* color: #201f22; */
+  color: var(--color-text);
+  font-weight: 400;
 }
 .text_main span {
   color: #bdbdc8;
