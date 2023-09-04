@@ -17,7 +17,12 @@
   padding-top: 30px;
   position: relative;
 }
-
+.hidden{
+  display: none;
+}
+/* .active{
+  display:none;
+} */
 .left-container p {
   /* font-size: 36px; */
   font-weight: 400;

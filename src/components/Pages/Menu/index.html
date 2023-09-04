@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .slider-container {
+        border: 1px solid;
+        height: 450px;
+        width: 80%;
+        margin: 100px auto;
+        display: flex;
+        position: relative;
+      }
+      .rows {
+        height: 100%;
+        display: flex;
+        gap: 5px;
+      }
+      .row {
+        width: 80px;
+        height: 100%;
+        background-color: black;
+        position: relative;
+        z-index: 2;
+        transition: all 0.5s ease-in-out;
+        right: 0px;
+      }
+      .content-container {
+        width: 100%;
+        flex: 1;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        transition: all 0.5s ease-in-out;
+        left: 0px;
+        z-index: 3;
+        background-color: white;
+        gap: 20px;
+        .box {
+          width: 80px;
+          height: 80px;
+          background-color: red;
+        }
+      }
+    </style>
+    <div class="slider-container">
+      <div class="content-container">
+        <div class="box">salam</div>
+        <div class="box">salam</div>
+        <div class="box">salam</div>
+        <div class="box">salam</div>
+        <div class="box">salam</div>
+        <div class="box">salam</div>
+        <div class="box">salam</div>
+        <div class="box">salam</div>
+      </div>
+      <div class="rows">
+        <div class="row"></div>
+        <div class="row"></div>
+        <div class="row"></div>
+        <div class="row"></div>
+      </div>
+    </div>
+    <script>
+      const rows = document.querySelectorAll(".row");
+      const sliderContainer = document.querySelector(".slider-container");
+      const contentContainer = document.querySelector(".content-container");
+      let counter = 0;
+
+      sliderContainer.addEventListener("click", () => {
+        const rowWidth = 5;
+        const rowRealWidth = 80;
+        const rowLength = rows.length;
+
+        rows[counter].style.right = `calc(250% - ${rowWidth * counter}px)`;
+        setTimeout(() => {
+          contentContainer.style.left = `${(counter + 1) * rowRealWidth}px`;
+        }, 100);
+        counter++;
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,112 @@
+.menuSection {
+  border: 1px solid black;
+  width: 1360px;
+  height: 746px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.productData {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  transition: 450ms all ease-in;
+}
+.productsContainer {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  flex: 2;
+  transition: 450ms all ease-in;
+}
+.menuSliderButtons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+}
+
+.menuSliderButtons div {
+  width: 100%;
+}
+.productsDatas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  transition: 450ms all ease-in;
+}
+.rows {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  gap: 2px;
+  flex-wrap: wrap;
+  transition: 450ms all ease-in;
+}
+.productsWraps {
+  height: 100%;
+  display: flex;
+  gap: 5px;
+}
+.row {
+  color: white;
+  width: 80px;
+  height: 100%;
+  background-color: black;
+  position: relative;
+  z-index: 2;
+  transition: all 0.5s ease-in-out;
+  right: 0px;
+}
+
+
+.productWraps div:hover {
+  cursor: pointer;
+  background-color: red;
+}
+
+.activeTab {
+  transition: 450ms all ease-in;
+  display: none;
+
+  height: 100%;
+  z-index: -10;
+  /* background-color: red; */
+}
+
+.nonDisp {
+  display: none !important;
+}
+
+
+#salam {
+  color: aliceblue;
+  z-index: -10;
+  /* width: 100%; */
+  background-color: black;
+  /* margin-top: 60px;
+    position: relative; */
+  font-size: 36px;
+  line-height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#salam span {
+  transform: rotate(-90deg);
+}

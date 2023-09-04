@@ -76,8 +76,8 @@ const Header = ({ mode }) => {
               onChange={handleChange}
               id="menu"
             />
-            <label for="menu" class="bars">
-              <div class="bar"></div>
+            <label for="menu" className="bars">
+              <div className="bar"></div>
             </label>
             <ul id="mobile-menu">
               <div style={{ paddingTop: "25px" }}>

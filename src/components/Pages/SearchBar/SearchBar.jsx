@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import "./SearchBar.css";
 
-import Logo from "../../../assets/logo.png";
-
 function SearchBar({ placoholder, data, className, setSearch, mode }) {
   const [filteredData, setFilteredData] = useState([]);
   const [wordeEntered, setWordEntered] = useState("");
