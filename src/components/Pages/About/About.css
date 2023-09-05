@@ -64,6 +64,7 @@
 @media only screen and (max-width: 1150px) {
     .about-heading h2 {
         font-size: 33px;
+        cursor: default;
       }
       .about-tittle h1 {
         font-size: 55px;

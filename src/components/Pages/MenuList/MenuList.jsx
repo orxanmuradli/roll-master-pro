@@ -8,8 +8,16 @@ import menu4 from "../../../assets/menu4.png";
 import menu5 from "../../../assets/menu5.png";
 import menu6 from "../../../assets/menu6.png";
 import BreadCrumbs from "../BreadCrumbs/BreadCrumbs";
+import rollmaster from "../../Pages/MenuList/rollmaster";
+import {slideUp} from "../MenuList/rollmaster";
 
 const MenuList = () => {
+
+  
+
+
+
+
   return (
     <div className=".menu__page">
       <BreadCrumbs pathnames={["", "MENYU"]} />
@@ -44,11 +52,15 @@ const MenuList = () => {
           <div className="special-bar-trigger">
             <div className="left-container-trigger">
               <div className="Rollar-trigger">
-                <div className="Rolrigger1">
+                <div className="Rolrigger1" >
                   <p>ROLLAR</p> 
                 </div>
+              
+
+               
 
                 <div className="Rolrigger2">
+                  
                   <p>SETLƏR</p>
                 </div>
                 <div className="Rolrigger3">

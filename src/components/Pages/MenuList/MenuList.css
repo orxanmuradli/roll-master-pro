@@ -146,8 +146,7 @@
   font-family: "Anton", sans-serif;
   color: #bdbdc8;
   /* --social-text-color: #bdbdc8; */
-  
- 
+
   font-weight: 400;
   line-height: 24.09px;
 }
@@ -171,7 +170,6 @@
 .menu_title h3 {
   /* color: #201f22; */
   color: var(--color-text);
-
 }
 
 .Rollar-trigger {
@@ -180,6 +178,7 @@
   justify-content: space-between;
   color: var(--menu-text-color);
   /* height: 100px; */
+  cursor: pointer;
   gap: 20px;
 }
 .Rolrigger1,
@@ -191,6 +190,7 @@
   width: 23%;
   text-align: center;
 }
+
 /* .Rollar-trigger p {
   width: 259px;
   font-size: 30px;

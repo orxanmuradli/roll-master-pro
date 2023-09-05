@@ -99,6 +99,7 @@ body {
   letter-spacing: 0em;
   font-family: "Anton", sans-serif;
   transition: 0.3s;
+  cursor: default;
 }
 
 .navbar a:hover {

@@ -26,6 +26,7 @@
   color: #201f22;
   color: var(--color-text);
   line-height: 24px;
+  cursor: pointer;
 }
 
 .first_text_of_breadcrumb div {

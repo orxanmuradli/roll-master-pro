@@ -268,6 +268,7 @@ linear-gradient(0deg, #DE4320, #DE4320); */
   line-height: 72px;
   width: 696px;
   color: var(--color-text);
+  cursor: pointer;
 }
 
 .red {

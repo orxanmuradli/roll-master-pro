@@ -11,6 +11,7 @@
 
 .contacttwo_h2 h2 {
   font-weight: 400;
+  cursor: default;
 }
 
 .sectioncontact {
@@ -30,6 +31,7 @@
   color: #de4320;
   padding-bottom: 32px;
   font-weight: 400;
+  cursor: default;
 }
 .complain {
   margin-top: 20px;
