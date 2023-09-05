@@ -72,7 +72,9 @@
   transition: all 0.5s ease-in-out;
   right: 0px;
 }
-
+.tableft{
+  background-color: yellow;
+}
 
 .productWraps div:hover {
   cursor: pointer;
@@ -91,7 +93,6 @@
 .nonDisp {
   display: none !important;
 }
-
 
 #salam {
   color: aliceblue;
