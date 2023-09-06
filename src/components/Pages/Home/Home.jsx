@@ -58,7 +58,7 @@ function Home({mode,setMode}) {
               <a href="https://web.whatsapp.com/">+994 50 736 56 16
             
               </a>
-              {/* <span>+994 50 736 56 16</span> */}
+         
             </div>
           </div>
 

@@ -60,6 +60,11 @@ body {
   background-color: var(--body-bg-color);
 }
 
+.left-container-trigger .Rollar-trigger p {
+  background: var(--menu-bg-color);
+  color: var(--menu-text-color);
+}
+
 .container {
   width: 1360px;
   max-width: 94%;

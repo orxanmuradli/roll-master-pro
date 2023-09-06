@@ -8,8 +8,7 @@ import menu4 from "../../../assets/menu4.png";
 import menu5 from "../../../assets/menu5.png";
 import menu6 from "../../../assets/menu6.png";
 import BreadCrumbs from "../BreadCrumbs/BreadCrumbs";
-import rollmaster from "../../Pages/MenuList/rollmaster";
-import {slideUp} from "../MenuList/rollmaster";
+
 
 const MenuList = () => {
 

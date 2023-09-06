@@ -6,6 +6,7 @@ import SearchBar from "../Pages/SearchBar/SearchBar";
 import BookData from "../../data/search-data.json";
 import React, { useRef, useState } from "react";
 import Theme from "../Theme/Theme";
+import { Link } from "react-router-dom";
 
 import wolt from "../../assets/wolt.png";
 
@@ -24,7 +25,7 @@ const Header = ({ setMode,mode }) => {
         style={{ transform: `translateX(${search ? "0px" : 0})` }}
       >
         <div className="leftSide">
-          <img src={+mode ? LogoDark : Logo} alt="logodark" />
+     <Link to="/">    <img src={+mode ? LogoDark : Logo} alt="logodark" /></Link> 
         </div>
 
         <div className="rightSide" id="rightSide">

@@ -1,5 +1,4 @@
 .about-heading h2 {
-  /* color: #201f22; */
   color: var(--color-text);
   font-family: "Anton", sans-serif;
   font-weight: 400;
@@ -10,8 +9,6 @@
 }
 
 .about-tittle h1 {
-  /* color: #201f22; */
-  /* color: var(--menu-text-color); */
   color: var(--color-text);
   font-family: "Anton", sans-serif;
   font-weight: 400;
@@ -51,7 +48,6 @@
   width: 100%;
 }
 
-
 @media only screen and (max-width: 1250px) {
   .about-heading h2 {
     font-size: 35px;
@@ -62,62 +58,56 @@
 }
 
 @media only screen and (max-width: 1150px) {
-    .about-heading h2 {
-        font-size: 33px;
-        cursor: default;
-      }
-      .about-tittle h1 {
-        font-size: 55px;
-      }
+  .about-heading h2 {
+    font-size: 33px;
+    cursor: default;
+  }
+  .about-tittle h1 {
+    font-size: 55px;
+  }
 }
 
 @media only screen and (max-width: 991px) {
-    .about-heading h2 {
-        font-size: 30px;
-      }
-      .about-tittle h1 {
-        font-size: 50px;
-      }
+  .about-heading h2 {
+    font-size: 30px;
+  }
+  .about-tittle h1 {
+    font-size: 50px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-    .about-heading h2 {
-        font-size: 28px;
-      }
-      .about-tittle h1 {
-        font-size: 45px;
-      }
-      .about-lorem span {
-      
-        font-size: 30px;
-       
-      
-      
-      }
-      
-
+  .about-heading h2 {
+    font-size: 28px;
+  }
+  .about-tittle h1 {
+    font-size: 45px;
+  }
+  .about-lorem span {
+    font-size: 30px;
+  }
 }
 
 @media only screen and (max-width: 550px) {
-    .about-heading h2 {
-        font-size: 25px;
-      }
-      .about-tittle h1 {
-        font-size: 40px;
-      }
-      .about-lorem span {
-        font-size: 27px;
-      }
+  .about-heading h2 {
+    font-size: 25px;
+  }
+  .about-tittle h1 {
+    font-size: 40px;
+  }
+  .about-lorem span {
+    font-size: 27px;
+  }
 }
 
 @media only screen and (max-width: 375px) {
-    .about-heading h2 {
-        font-size: 28px;
-      }
-      .about-tittle h1 {
-        font-size: 36px;
-      }
-      .about-lorem span {
-        font-size: 20px;
-      }
+  .about-heading h2 {
+    font-size: 28px;
+  }
+  .about-tittle h1 {
+    font-size: 36px;
+  }
+  .about-lorem span {
+    font-size: 20px;
+  }
 }

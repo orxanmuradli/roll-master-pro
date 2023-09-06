@@ -1,99 +1,81 @@
-.cards{
-    display: flex;
-    
-    padding-top: 40px;
-    gap: 28px;
-   
-    justify-content: space-between;
-    text-align: center
-    
-    
-  
-}
+.cards {
+  display: flex;
 
-.popular{
-    
-}
+  padding-top: 40px;
+  gap: 28px;
 
-.popular-tittle h1{
-   color: var(--text-red-color);
-    font-family: 'Anton', sans-serif;
-    font-size: 40px;
-    font-weight: 400;
-    line-height: 60px;
-    cursor: default;
+  justify-content: space-between;
+  text-align: center;
 }
 
 
 
-/* .cart1 span{
-    color: #DE4320;
-
-} */
-.cart{
-    width: 33%;    
-   cursor: pointer;
-   display: flex;
-   flex-direction: column;
-  
-  
-}
-
-.cart img{
-    width: 100%;
-}
-
-.cart span{
-    color: #DE4320;
+.popular-tittle h1 {
+  color: var(--text-red-color);
+  font-family: "Anton", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 60px;
+  cursor: default;
 }
 
 
-.set{
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+.cart {
+  width: 33%;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
 }
 
-.set-2{
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+.cart img {
+  width: 100%;
 }
 
-.set-3{
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+.cart span {
+  color: #de4320;
 }
 
-/* .cart span{
-    color: #DE4320;
-} */
-
-.cart h2{
-    font-family: 'Anton', sans-serif;
-font-size: 24px;
-font-weight: 400;
-line-height: 36px;
-letter-spacing: 0em;
-text-align: center;
-color: var(--color-text);
+.set {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
-.card p{
-    color: #C9C9D1;
-
+.set-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
-.card p{
-    color: #C9C9D1;
-
+.set-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
-.cart p{
-    color: #C9C9D1;
+
+
+.cart h2 {
+  font-family: "Anton", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: var(--color-text);
 }
 
+.card p {
+  color: #c9c9d1;
+}
+
+.card p {
+  color: #c9c9d1;
+}
+
+.cart p {
+  color: #c9c9d1;
+}
 
 /* @media only screen and (min-width: 370px) and ( max-width: 700px){
     
