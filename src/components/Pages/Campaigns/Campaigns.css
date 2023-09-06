@@ -15,6 +15,10 @@
   gap: 32px;
   padding-bottom: 160px;
 }
+.container_h2 {
+  margin-bottom: 24px;
+  
+}
 
 .contex_compaings {
   display: flex;
