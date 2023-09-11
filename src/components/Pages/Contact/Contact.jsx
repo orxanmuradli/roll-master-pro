@@ -44,7 +44,7 @@ const Contact = () => {
     <section className={styles.sectioncontact}>
       <form onSubmit={handleSubmit}>
         <div className={styles.contacttwo}>
-          <BreadCrumbs pathnames={["", "KAMPANYALAR"]} />
+          <BreadCrumbs pathnames={["", "ƏLAQƏ"]} />
         </div>
         <div className={styles.contacttwo_h2}>
           <h2>Əlaqə</h2>
@@ -85,10 +85,12 @@ const Contact = () => {
           <div className={styles.rightside}>
             <p>Sifariş üçün</p>
             <div className={styles.wolt}>
-              <Link to="#">+994517365616</Link> <img src={wolt} alt="" />
+              <Link to="https://web.whatsapp.com/">+994517365616</Link> <img src={wolt} alt="" />
             </div>
             <p>Sosial şəbəkə</p>
             <div className={styles.sosials}>
+
+              
               <img src={insta} alt="" />
               <img src={face} alt="" />
             </div>

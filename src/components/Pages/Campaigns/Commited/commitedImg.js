@@ -1,16 +1,15 @@
+import campaigns from "../../../../assets/Rectangle 46 (7).png";
+import campaigns1 from "../../../../assets/remsort4.png";
+import campaigns2 from "../../../../assets/restor2.png";
+const imagePaths = [campaigns, campaigns1, campaigns2];
 
-// import campaigns from "../../../assets/img1.png";
-// import campaigns from "../../../assets/img2.png";
-// import campaigns from "../../../assets/img3.png";
-// const imagePaths = [campaigns, campaigns, campaigns];
+const CommitedImages = imagePaths.map((path, index) => (
+  <img
+    src={path}
+    key={index}
+    alt="salam"
+    // style={{ width: "432px", height: "324px" }}
+  />
+));
 
-// const CommitedImages = imagePaths.map((path, index) => (
-//   <img
-//     src={path}
-//     key={index}
-//     alt="salam"
-//     style={{ width: "432px", height: "324px" }}
-//   />
-// ));
-
-// export default CommitedImages;
+export default CommitedImages;

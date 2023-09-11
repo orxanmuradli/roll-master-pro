@@ -17,6 +17,11 @@
   width: 50%;
 
 }
+
+.image_wrapper{
+  padding-left: 32px;
+  
+}
 .slidetext {
   display: flex;
   flex-direction: column;
@@ -43,7 +48,16 @@
   font-weight: 400;
   line-height: normal;
 }
+.image_item{
+  position: absolute;
+  width: 580px;
+  height: 444px;
+}
 
+.image_item img{
+  width: 100%;
+  height: 100%;
+}
 .activesvg {
   display: block;
 }
@@ -63,4 +77,11 @@
 
 .texttxt2 {
   display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .slider_container{
+    
+    display: block !important;
+  }
 }

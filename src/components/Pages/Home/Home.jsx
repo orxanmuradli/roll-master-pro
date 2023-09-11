@@ -5,6 +5,7 @@ import Menu from "../Menu/Menu";
 import Blog from "../Blog/Blog";
 import Campaigns from "../Campaigns/Campaigns";
 import rarrow from "../../../assets/right_arrow.svg";
+import { Link } from "react-router-dom";
 
 import SocialMedia from "../../Footer/Socialmedia";
 function Home({mode,setMode}) {
@@ -36,13 +37,15 @@ function Home({mode,setMode}) {
               </svg>
             </div>
           </div> */}
-            <div className="header_link">
-              <a className="link_rectangle" href="#">
+           <Link to="/MENYU"> <div className="header_link">
+             <a className="link_rectangle" href="#">
                 MENYUYA KEÇİD ET
               <img src={rarrow} alt="" />
               </a>
+          
               {/* <img className="arrow-icons" src={arrow} alt="" /> */}
             </div>
+            </Link> 
           </div>
         </div>
       </div>

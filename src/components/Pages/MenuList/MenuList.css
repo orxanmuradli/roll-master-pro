@@ -9,8 +9,19 @@
 
 
 } */
-.left-container-trigger {
+
+.productCart {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   width: 100%;
+}
+.productsComponent {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.left-container-trigger {
   /* padding-left: 70px; */
   padding-top: 30px;
   position: relative;
@@ -26,19 +37,10 @@
 }
 
 .special-trigger-cards {
-  display: flex;
-  margin: auto;
-
-  align-items: center;
   flex-wrap: wrap;
   padding-top: 40px;
-
-  justify-content: space-between;
+  width: 30%;
   text-align: center;
-}
-
-.special-trigger {
-  margin-top: 40px;
 }
 
 .special-trigger h3 {
@@ -52,12 +54,8 @@
   cursor: default;
   color: var(--menu-text-color);
 }
-.wrapper {
-  display: flex;
-}
 
 .wrapper-cart {
-  padding: 30px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -104,7 +102,6 @@
   font-family: "Anton", sans-serif;
   font-size: 18px;
   font-weight: 200;
-  padding-left: 86px;
 }
 
 .trigger-card h2 {
@@ -118,18 +115,18 @@
   color: var(--color-text);
 }
 .trigger-card {
-  margin: 0;
   width: calc((100% - 64px) / 3);
   height: auto;
   cursor: pointer;
   margin-bottom: 8px;
-
-  padding-left: 0;
-  padding-right: 0;
 }
 
 .trigger-card img {
   width: 100%;
+}
+
+.activeH {
+  background-color: red !important;
 }
 
 .slsnlsk {
@@ -160,9 +157,7 @@
 }
 
 .menu_title {
-  display: flex;
   margin: 0;
-  justify-content: space-between;
   align-items: center;
   text-align: center;
 }
@@ -175,20 +170,20 @@
 .Rollar-trigger {
   display: flex;
   margin: auto !important;
+  /* width: 1000px; */
   justify-content: space-between;
+  align-items: center;
   color: var(--menu-text-color);
-  /* height: 100px; */
+  height: 100px;
   cursor: pointer;
   gap: 20px;
 }
-.Rolrigger1,
-.Rolrigger2,
-.Rolrigger3,
-.Rolrigger4 {
+.Rolrigger {
   background-color: black;
   color: white;
   width: 23%;
   text-align: center;
+  /* display: flex; */
 }
 
 /* .Rollar-trigger p {
@@ -200,6 +195,17 @@
   color: white;
   padding: 24px 32px 24px 32px;
 } */
+
+.overlay_effect{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: black !important;
+  background-color: white !important;
+  transform: translate(-50%,-50%) !important;
+  -ms-transform: translate(-50%,-50%) !important;
+}
 
 @media only screen and (max-width: 1300px) {
 }
@@ -215,18 +221,12 @@
     display: flex;
     align-items: center;
     text-align: center;
-    margin: 0;
-    padding: 0;
     justify-content: space-between;
   }
   .menu-download {
-    padding: 0;
     margin: 0;
   }
-  .menu_titleh3 {
-    padding: 0;
-    margin: 0;
-  }
+
   .Rollar-trigger {
     display: flex;
     flex-wrap: wrap;
@@ -249,7 +249,6 @@
   }
   .special-trigger-cards {
     display: flex;
-    flex-direction: column;
   }
   .trigger-card {
     margin: 0;
@@ -315,15 +314,8 @@
     padding: 0;
     margin: 0;
   }
-  .Rollar-trigger {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 4px;
-  }
-  .Rolrigger1,
-  .Rolrigger2,
-  .Rolrigger3,
-  .Rolrigger4 {
+
+  .Rolrigger {
     color: #fff;
     font-size: 24px;
     font-family: "Anton", sans-serif;
@@ -345,7 +337,6 @@
     height: auto;
     cursor: pointer;
     margin-bottom: 32px;
-
     padding-left: 0;
     padding-right: 0;
   }

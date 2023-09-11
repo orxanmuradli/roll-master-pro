@@ -3,6 +3,7 @@ import blogs2 from "../../../assets/blogs2.png";
 import blogs3 from "../../../assets/blogs3.png";
 import "./Blog.css";
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Blog = () => {
   return (
@@ -13,16 +14,22 @@ const Blog = () => {
           <div className="blog-main">
             <div className="styles">
               <div className="style">
+                <Link to="BloqDetail">
                 <img src={blog} alt="blog_img" />
+                </Link>
                 <span>İlk dəfə yeyənlər üçün dadlı 10 suşi növü</span>
               </div>
               <div className="style">
-                <img src={blogs2} alt="blogs2_img" />
 
+                <Link to="BloqDetail">
+                <img src={blogs2} alt="blogs2_img" />
+                </Link>
                 <span>İlk dəfə yeyənlər üçün dadlı 10 suşi növü</span>
               </div>
               <div className="style">
+              <Link to="BloqDetail">
                 <img src={blogs3} alt="blogs3_img" />
+                </Link>
                 <span>İlk dəfə yeyənlər üçün dadlı 10 suşi növü</span>
               </div>
             </div>

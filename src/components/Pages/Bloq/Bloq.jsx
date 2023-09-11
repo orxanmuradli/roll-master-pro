@@ -6,6 +6,7 @@ import remmos from "../../../assets/Remmos 37 (5).png";
 import recmos from "../../../assets/recmos3.png";
 import remsort from "../../../assets/remsort4.png";
 import BreadCrumbs from "../BreadCrumbs/BreadCrumbs";
+import { Link } from "react-router-dom";
 
 const Bloq = () => {
   return (
@@ -17,8 +18,12 @@ const Bloq = () => {
         <div className="bloq_header">
           <div className="main_information_img">
             <div className="main_informations">
+              
               <img src={rector} alt="" />
+              
               <div className="bloq_span">
+
+              
                 <span>İlk dəfə yeyənlər üçün dadlı 10 suşi növü</span>
               </div>
             </div>
