@@ -42,66 +42,67 @@ const Contact = () => {
   };
   return (
     <section className={styles.sectioncontact}>
-      <form onSubmit={handleSubmit}>
-        <div className={styles.contacttwo}>
-          <BreadCrumbs pathnames={["", "ƏLAQƏ"]} />
-        </div>
-        <div className={styles.contacttwo_h2}>
-          <h2>Əlaqə</h2>
-        </div>
-        <div className={styles.main}>
-          <div className={styles.leftside}>
-            <p>İrad və təklifləriniz</p>
-            <div className={styles.naming}>
-              <label for="">Ad və soyad</label> <br />
-              <input
-                type="text"
-                placeholder="Ad və soyad"
-                className={styles.inputss}
-                onChange={handleChange}
-              />
-              {errors.name && <p>{errors.name}</p>}
+      <div className="container">
+        <form onSubmit={handleSubmit}>
+          <div className={styles.contacttwo}>
+            <BreadCrumbs pathnames={["", "ƏLAQƏ"]} />
+          </div>
+          <div className={styles.contacttwo_h2}>
+            <h2>Əlaqə</h2>
+          </div>
+          <div className={styles.main}>
+            <div className={styles.leftside}>
+              <p>İrad və təklifləriniz</p>
+              <div className={styles.naming}>
+                <label for="">Ad və soyad</label> <br />
+                <input
+                  type="text"
+                  placeholder="Ad və soyad"
+                  className={styles.inputss}
+                  onChange={handleChange}
+                />
+                {errors.name && <p>{errors.name}</p>}
+              </div>
+              <div className={styles.contact}>
+                <label for="">Əlaqə nömrəsi</label> <br />
+                <input
+                  type="number"
+                  placeholder="+994 "
+                  className={styles.kjba}
+                  onChange={handleChange}
+                />
+                {errors.number && <p>{errors.number}</p>}
+              </div>
+              <div className={styles.complain}>
+                <label for="">Şikayətiniz / Təklifiniz</label> <br />
+                <input
+                  type="text"
+                  placeholder="Şikayət və ya təklifinizi qeyd edin"
+                  onChange={handleChange}
+                />
+                {errors.text && <p>{errors.text}</p>}
+              </div>
             </div>
-            <div className={styles.contact}>
-              <label for="">Əlaqə nömrəsi</label> <br />
-              <input
-                type="number"
-                placeholder="+994 "
-                className={styles.kjba}
-                onChange={handleChange}
-              />
-              {errors.number && <p>{errors.number}</p>}
-            </div>
-            <div className={styles.complain}>
-              <label for="">Şikayətiniz / Təklifiniz</label> <br />
-              <input
-                type="text"
-                placeholder="Şikayət və ya təklifinizi qeyd edin"
-                onChange={handleChange}
-              />
-              {errors.text && <p>{errors.text}</p>}
+            <div className={styles.rightside}>
+              <p>Sifariş üçün</p>
+              <div className={styles.wolt}>
+                <Link to="https://web.whatsapp.com/">+994517365616</Link>{" "}
+                <img src={wolt} alt="" />
+              </div>
+              <p>Sosial şəbəkə</p>
+              <div className={styles.sosials}>
+                <img src={insta} alt="" />
+                <img src={face} alt="" />
+              </div>
             </div>
           </div>
-          <div className={styles.rightside}>
-            <p>Sifariş üçün</p>
-            <div className={styles.wolt}>
-              <Link to="https://web.whatsapp.com/">+994517365616</Link> <img src={wolt} alt="" />
-            </div>
-            <p>Sosial şəbəkə</p>
-            <div className={styles.sosials}>
-
-              
-              <img src={insta} alt="" />
-              <img src={face} alt="" />
-            </div>
+          <div className={styles.bottomsside}>
+            <button className={styles.redsButton} type="submit">
+              GÖNDƏR
+            </button>
           </div>
-        </div>
-        <div className={styles.bottomsside}>
-          <button className={styles.redsButton} type="submit">
-            GÖNDƏR
-          </button>
-        </div>
-      </form>
+        </form>
+      </div>
     </section>
   );
 };

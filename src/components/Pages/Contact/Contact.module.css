@@ -15,7 +15,7 @@
 }
 
 .sectioncontact {
-  margin-left: 60px;
+  margin-left: 15px;
   margin-right: 79px;
 }
 .main {
@@ -76,6 +76,7 @@ input{
   font-weight: 400;
   width: 100%;
   /* color: #BDBDC8; */
+  color: var(--color-text);
   border-bottom: 1px solid #bdbdc8;
   /* border-top: 1px solid black; */
 }

@@ -11,7 +11,7 @@ import menu1 from "../assets/menu1.png";
 const data = [
   {
     id: 1,
-    category: "Rollar",
+    category: "",
     name: "California Salmon",
     description: "DÜYÜ, NORİ, XİYAR ",
     price: "32 AZN",
